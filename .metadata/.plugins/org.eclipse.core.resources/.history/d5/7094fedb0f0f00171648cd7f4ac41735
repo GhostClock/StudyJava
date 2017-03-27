@@ -1,0 +1,37 @@
+package com.Generic;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Gen<Integer> gen = new Gen<Integer>(111);
+		gen.showTypeName();
+		
+	}
+
+}
+
+//定义一个Bird
+class Bird{
+	protected void test1() {
+		
+	}
+}
+
+
+//定义一个类
+class Gen<T>{
+	private T o;
+	
+	//构造函数
+	public Gen(T a) {
+		// TODO Auto-generated constructor stub
+		o = a;
+	}
+	
+	//得到T的类型名称
+	public void showTypeName() {
+		System.out.println("类型是:" + o.getClass().getName());
+	}
+	
+}

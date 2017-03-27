@@ -1,0 +1,16 @@
+package com.Exception;
+
+import java.io.FileReader;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//检查性异常 1.打开文件
+//		FileReader fileReader = new FileReader("");
+		
+		//1.连接一个端口 192.168.1.100 4567
+		
+	}
+
+}

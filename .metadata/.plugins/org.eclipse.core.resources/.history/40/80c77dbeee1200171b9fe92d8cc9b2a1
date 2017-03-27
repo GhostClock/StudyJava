@@ -1,0 +1,14 @@
+
+
+package com.GUI;
+
+import javax.swing.JFrame;
+
+public class Test06 extends JFrame {
+	//定义组件
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

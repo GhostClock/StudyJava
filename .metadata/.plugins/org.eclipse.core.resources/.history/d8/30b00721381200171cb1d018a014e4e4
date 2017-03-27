@@ -1,0 +1,36 @@
+/**
+ * GUI界面的开发
+ * 
+ * 
+ * */
+
+package com.GUI;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import java.awt.*;
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//JFrame是顶层容器(可以添加其他swing组件的类)
+		JFrame jFrame = new JFrame();
+		//创建一个JButton
+		JButton jButton = new JButton("按钮");
+		
+		//给窗体设置标题
+		jFrame.setTitle("Hello World");
+		//设置大小 传入像素
+		jFrame.setSize(300, 300);
+		//设置初始位置
+		jFrame.setLocation(100, 200);
+		//设置当关闭窗口的时候 保证jvm也退出
+		jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//显示
+		jFrame.setVisible(true);
+		
+		
+		
+	}
+
+}

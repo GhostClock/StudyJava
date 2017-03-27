@@ -1,0 +1,21 @@
+
+/*
+ * LinkedList的用法
+ * 
+ * */
+
+package com.Set;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LinkedList linkedList = new LinkedList();
+		Employee employee = new Employee("1000", "bb", 1000.0f);
+		linkedList.addFirst(employee);
+	}
+
+}

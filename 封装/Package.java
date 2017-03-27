@@ -18,14 +18,35 @@ public class Package{
 		// System.out.println(package2.i);//4
 
 
-		Stu stu1 = new Stu(11,"aa",360);
+		// Stu stu1 = new Stu(11,"aa",360);
 
-		Stu stu2 = new Stu(11,"aa",360);
+		// Stu stu2 = new Stu(11,"aa",360);
 
-		System.out.println(Stu.getTotalFee());
+		// System.out.println(Stu.getTotalFee());
 
+
+		Clerk clerk = new Clerk("Ghost",14,4563.0f);
+		System.out.println(clerk.name + "薪水" +clerk.getSalary());
 	}
 
+}
+
+//职员
+class Clerk{
+	public String name;
+	private int age;
+	private float salary;
+
+	public Clerk(String name,int age,float salary){
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+	}
+
+	//通过成员方法访问私有的属性
+	public float getSalary(){
+		return this.salary;
+	}
 }
 
 

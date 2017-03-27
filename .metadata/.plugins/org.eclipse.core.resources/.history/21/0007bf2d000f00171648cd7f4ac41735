@@ -1,0 +1,20 @@
+
+//hashMap和HashTable的用法
+
+package com.Set;
+
+import java.util.HashMap;
+
+public class HashMap_HashTable_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//创建一个HashMap 的对象
+		HashMap hashMap = new HashMap();
+		Employee employee = new Employee("2000", "aaa", 3.122f);
+		//将employee放入到
+		
+	}
+
+}

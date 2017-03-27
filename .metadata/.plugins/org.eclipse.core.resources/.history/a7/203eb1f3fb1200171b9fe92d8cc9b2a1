@@ -1,0 +1,32 @@
+/**
+ * JComboBox & JList & JScorllPane
+ * 
+ * */
+package com.GUI;
+
+import javax.swing.*;
+
+public class Demo08 extends JFrame {
+	JPanel jPanel1, jPanel2;
+	JLabel jLabel1, jLabel2;
+	JComboBox jComboBox;
+	JList jList;
+	JScrollPane jScrollPane;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Demo08() {
+		jPanel1 = new JPanel();
+		jPanel2 = new JPanel();
+		
+		jLabel1 = new JLabel("你的籍贯");
+		jLabel2 = new JLabel("你喜欢的旅游地点");
+		
+		String[] jComboBoxString = {"北京","上海","天津","月球"};
+		jComboBox = new JComboBox(jComboBoxString);
+	}
+
+}

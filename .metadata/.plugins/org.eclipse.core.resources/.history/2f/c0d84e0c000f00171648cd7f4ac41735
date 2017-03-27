@@ -1,0 +1,13 @@
+
+//hashMap和HashTable的用法
+
+package com.Set;
+
+public class HashMap_HashTable_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,52 @@
+/**
+ * FlowLayout 的演示
+ * */
+/**
+ * FloaLayout布局,是按照组件的添加次序将组件从左往右放置只在容器中,
+ * 当到达容器的边界时,组件将放置在下一行,FlowLayout可以左对其,居中对其,
+ * 右对其的方式排列组件
+ * 
+ * */
+
+package com.GUI;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Test03 extends JFrame {
+	// 定义需要的组件
+	JButton jButton1, jButton2, jButton3, jButton4, jButton5, jButton6;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	// 构造函数
+	public Test03() {
+		// 创建组件
+		jButton1 = new JButton("关羽");
+		jButton2 = new JButton("张飞");
+		jButton3 = new JButton("赵云");
+		jButton4 = new JButton("马超");
+		jButton5 = new JButton("黄忠");
+		jButton6 = new JButton("魏延");
+
+		// 添加组件
+		this.add(jButton1);
+		this.add(jButton2);
+		this.add(jButton3);
+		this.add(jButton4);
+		this.add(jButton5);
+		this.add(jButton6);
+
+		// 设置窗体属性
+		this.setTitle("边界布局的演示");
+		this.setSize(300, 200);
+		this.setLocation(200, 200);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+	}
+
+}

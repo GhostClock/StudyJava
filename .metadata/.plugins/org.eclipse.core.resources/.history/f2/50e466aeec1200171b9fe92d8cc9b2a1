@@ -1,0 +1,27 @@
+/**
+ * 多种布局管理器的使用
+ * 
+ * */
+/**
+ * JPanel:面板组件
+ * JPanel 面板组件,非顶层容器
+ * 一个界面只可以有一个JFrame窗体组件,但是可以有多个JPanel面板组件,而JPanel
+ * 上也可以使用FlowLayout,BorderLayout,GirdLayout等各种布局管理器,这样
+ * 可以组合使用达到较为复杂的布局效果
+ * 
+ * 
+ * */
+
+
+package com.GUI;
+
+import javax.swing.JFrame;
+
+public class Test05 extends JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

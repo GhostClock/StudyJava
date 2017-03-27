@@ -1,0 +1,54 @@
+/**
+ * JComboBox & JList & JScorllPane
+ * 
+ * */
+package com.GUI;
+
+import java.awt.GridBagLayout;
+
+import javax.swing.*;
+
+public class Demo08 extends JFrame {
+	JPanel jPanel1, jPanel2;
+	JLabel jLabel1, jLabel2;
+	JComboBox jComboBox;
+	JList jList;
+	JScrollPane jScrollPane;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Demo08();
+	}
+	
+	public Demo08() {
+		jPanel1 = new JPanel();
+		jPanel2 = new JPanel();
+		
+		jLabel1 = new JLabel("你的籍贯");
+		jLabel2 = new JLabel("你喜欢的旅游地点");
+		
+		String[] jComboBoxString = {"北京","上海","天津","月球"};
+		jComboBox = new JComboBox(jComboBoxString);
+		
+		String []dd = {"张家界","故宫","长城","天安门"};
+		jList = new JList(dd);
+		
+		//设置布局
+		this.setLayout(new GridBagLayout());
+		
+		//添加组件
+		jPanel1.add(jLabel1);
+		jPanel1.add(jComboBox);
+		
+		jPanel2.add(jLabel2);
+		jLabel2.add(jList);
+		
+		this.add(jPanel1);
+		this.add(jPanel2);
+		
+		this.setSize(300, 300);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+}

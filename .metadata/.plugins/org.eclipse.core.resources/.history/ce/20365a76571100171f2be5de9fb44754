@@ -1,0 +1,37 @@
+package com.Exception;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.Socket;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//检查性异常 1.打开文件
+		try {
+//			FileReader fileReader = new FileReader("");
+			Socket socket = new Socket("192.168.1.100",78);
+			System.out.println("===" + socket);
+		} catch (FileNotFoundException e) {
+			// 把异常的信息输出，利于排除bug
+			e.printStackTrace();
+		}catch (IOException e) {
+			// TODO: handle exception
+		}
+		
+		
+		//2.连接一个端口 192.168.1.100 4567
+//		Socket socket = new Socket("");
+		
+		//3.运行异常
+//		int number = 4 / 0; //
+		
+//		int number[] = {1,2,3};
+//		System.out.println(number[4]);
+		
+		
+	}
+
+}

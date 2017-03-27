@@ -1,0 +1,23 @@
+/**
+ * JComboBox & JList & JScorllPane
+ * 
+ * */
+package com.GUI;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Demo08 extends JFrame {
+	JPanel jPanel1, jPanel2;
+	JLabel jLabel1, jLabel2;
+	JComboBox jComboBox;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

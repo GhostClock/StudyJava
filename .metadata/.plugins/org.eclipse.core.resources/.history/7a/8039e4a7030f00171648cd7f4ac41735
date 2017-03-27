@@ -1,0 +1,19 @@
+/**
+ * @author ghostclock
+ * Java中集合类主要有以下几种
+ * 
+ * List结构的集合类
+ * ArrayList类,LinkedList类,Vector类,Stack类
+ *
+ * Map结构的集合类
+ * HashMap类,Hashtable类
+ * 
+ * Set结构的集合类
+ * HashSet类,TreeSet类
+ * 
+ * Queue结构的集合类
+ * Queue接口
+ *
+ */
+
+package com.Set;

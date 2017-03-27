@@ -1,0 +1,28 @@
+package com.Generic;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Gen<String> gen = new Gen<String>("");
+	}
+
+}
+
+
+//定义一个类
+class Gen<T>{
+	private T o;
+	
+	//构造函数
+	public Gen<T>() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	//得到T的类型名称
+	public void showTypeName() {
+		System.out.println("类型是:" + o.getClass().getName());
+	}
+	
+}

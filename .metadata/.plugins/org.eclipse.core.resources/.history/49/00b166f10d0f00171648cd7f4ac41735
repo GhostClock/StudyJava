@@ -1,0 +1,22 @@
+
+/**
+ * 泛型的必要性
+ * 
+ * */
+
+package com.Generic;
+
+public class Generic_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Dog{
+	private String name;
+	private int age;
+}
+

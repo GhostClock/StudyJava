@@ -1,0 +1,23 @@
+/**
+ * GUI界面的开发
+ * 
+ * 
+ * */
+
+package com.GUI;
+
+import javax.swing.JFrame;
+import java.awt.*;
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//JFrame是顶层容器(可以添加其他swing组件的类)
+		JFrame jFrame = new JFrame();
+		//给窗体设置标题
+		jFrame.setTitle("Hello World");
+		//设置大小 传入像素
+		jFrame.setSize(width, height);
+	}
+
+}
