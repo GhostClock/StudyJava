@@ -31,7 +31,7 @@ public class Demo08 extends JFrame {
 		String[] jComboBoxString = {"北京","上海","天津","月球"};
 		jComboBox = new JComboBox(jComboBoxString);
 		
-		String []dd = {"张家界","故宫","长城","天安门","张家界","故宫","长城","天安门","张家界","故宫","长城","天安门"};
+		String []dd = {"张家界","故宫","长城","天安门","张家界","故宫","长城"};
 		jList = new JList(dd);
 		//设置希望显示多少个选项
 		jList.setVisibleRowCount(5);
