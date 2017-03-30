@@ -1,0 +1,31 @@
+/*
+ * 金山词霸
+ * 
+ * */
+package com.GUI;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JSplitPane;
+public class Demo09 extends JFrame {
+	//定义组件
+	JSplitPane jSplitPane;//可拆分窗格
+	JList jList;
+	JLabel jLabel;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public Demo09() {
+		//创建组件
+		String []words = {"one","two","three","four","fiver","six",};
+		jList = new JList(words);
+		
+		jLabel = new JLabel(new ImageIcon("images/1.png"));
+		
+		
+	}
+
+}

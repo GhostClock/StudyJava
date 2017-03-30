@@ -1,0 +1,33 @@
+/**
+ * QQ聊天界面
+ * 
+ * */
+package com.GUI;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class Demo10 extends JFrame {
+	JTextArea jTextArea;
+	JPanel jPanel;
+	JComboBox jComboBox;
+	JTextField jTextField;
+	JButton jButton;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Demo10() {
+		jTextArea = new JTextArea();
+		jPanel = new JPanel();
+		String []persons = {"布什","林肯","华盛顿","奥巴马"};
+		jComboBox = new JComboBox(persons);
+		jTextField = new JTextField(10);
+		jButton = new JButton("发送")
+	}
+}

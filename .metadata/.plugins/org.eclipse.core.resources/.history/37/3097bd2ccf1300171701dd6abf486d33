@@ -1,0 +1,40 @@
+
+/**
+ * 记事本
+ * 
+ * */
+
+package com.GUI;
+import javax.swing.*;
+
+public class NotPad extends JFrame {
+	JMenuBar jMenuBar;//菜单条组件
+	JMenu menu1,menu2,menu3,menu4,menu5;
+	JMenuItem item2,item3,item4,item5,item6,item7;
+	JMenu xinjian;//二级菜单
+	JMenuItem file,project;
+	
+	JTextArea jTextArea;
+	
+	JToolBar jToolBar;//工具条
+	JButton jButton1,jButton2,jButton3,jButton4,jButton5,jButton6;
+	
+	public static void main(String[] args) {
+		
+	}
+	public NotPad() {
+		//创建组件
+		jToolBar = new JToolBar();
+		jButton1 = new JButton(new ImageIcon("images/NWE.jpg"));
+		jButton1.setToolTipText("新建");//设置提示信息
+		jButton2 = new JButton(new ImageIcon("images/OPEN.jpg"));
+		jButton2.setToolTipText("打开");
+		jButton3 = new JButton(new ImageIcon("images/SAVE.jpg"));
+		jButton4 = new JButton(new ImageIcon("images/COPY.png"));
+		jButton5 = new JButton(new ImageIcon("images/CUT.jpg"));
+		jButton6 = new JButton(new ImageIcon("images/PASTE.jpg"));
+		
+		jMenuBar = new JMenuBar();
+		
+	}
+}
