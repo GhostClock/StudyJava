@@ -1,0 +1,32 @@
+/**
+ * java的画图原理
+ * 
+ * 
+ * */
+
+package com.test01;
+
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+//我自己的面板 用户绘图和显示的区域
+class MyPanle extends JPanel{
+	//重写JPanel的paint的方法
+	@Override
+	public void paint(Graphics g) {//Graphics绘图的重要类
+		//1.调用父类函数，完成初始化任务
+		super.paint(g);
+		
+	}
+}
+

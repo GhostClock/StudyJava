@@ -1,0 +1,83 @@
+/**
+ * 坦克游戏的1.0
+ * 画出坦克
+ * 
+ * */
+package com.test01;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.*;
+
+public class MyTankGame1 extends JFrame {
+	MyPanle myPanle = null;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new MyTankGame1();
+	}
+	//构造函数
+	public MyTankGame1() {
+		myPanle = new MyPanle2();
+		this.add(myPanle);
+		this.setSize(400, 300);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+}
+
+//我的面板
+class MyPanel2 extends JPanel{
+	//定义我自己的坦克
+	Hero hero = null;
+	
+	//构造函数
+	public MyPanel() {
+		hero = new Hero(10, 10);
+	}
+	
+	//抽象paint
+	@Override
+	public void paint(Graphics g) {
+		super.paint(g);
+		g.setColor(Color.yellow);
+		//画出坦克
+		//1.画出左边矩形
+		g.drawRect(hero.getX(), hero.getY(), 5, 30);
+	}
+}
+
+
+//定义一个坦克类
+class Tank {
+	int x = 0;//横坐标
+	int y = 0;//纵坐标
+	
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public Tank(int x,int y) {
+		this.x = x;
+		this.y = y;
+	}
+}
+
+class Hero extends Tank{
+	public Hero(int x,int y) {
+		super(x, y);
+	}
+}
+
+
