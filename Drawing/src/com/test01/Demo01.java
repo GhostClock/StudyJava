@@ -60,6 +60,10 @@ class MyPanle extends JPanel{
 		g.setFont(new Font("微软雅黑", Font.BOLD, 20));
 		g.drawString("我是画出来的字符串", 200, 250);
 		
+		
+		//画一个王八
+		g.drawArc(250, 80, 120, 300, 50, 100);
+		// .....
 	}
 }
 

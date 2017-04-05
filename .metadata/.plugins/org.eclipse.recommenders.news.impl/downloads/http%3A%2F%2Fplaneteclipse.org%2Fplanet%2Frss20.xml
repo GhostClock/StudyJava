@@ -8,6 +8,264 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>JBoss Tools Team: JBoss Tools 4.4.4.AM2 for Eclipse Neon.3</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.4.4.am2-for-neon.3.html</guid>
+	<link>https://tools.jboss.org/blog/4.4.4.am2-for-neon.3.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.4.4.AM2 (Developer Milestone 2) build for Eclipse Neon.3.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.AM2.html&quot;&gt;JBoss Tools 4.4.4 AM2&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.4.4.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;docker-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#docker-tools&quot;&gt;&lt;/a&gt;Docker Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;run-image-network-support&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#run-image-network-support&quot;&gt;&lt;/a&gt;Run Image Network Support&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new page has been added to the Docker Run Image Wizard and Docker Run Image Launch configuration that allows
+      the end-user to specify the network mode to use.  A user can choose from Default, Bridge, Host, None, Container,
+      or Other.  If Container is selected, the user must choose from an active Container to use the same network mode.
+      If Other is specified, a named network can be specified.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Network Mode&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerNetworkMode.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Network Mode Configuration&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRunConfigNetworkMode.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;refresh-connection&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#refresh-connection&quot;&gt;&lt;/a&gt;Refresh Connection&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Users can now refresh the entire connection from the Docker Explorer View.  Refresh can be performed two ways:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;olist arabic&quot;&gt;
+      &lt;ol class=&quot;arabic&quot;&gt;
+      &lt;li&gt;
+      &lt;p&gt;using the right-click context menu from the Connection&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;using the Refresh menu button when the Connection is selected&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Refresh Connection&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_neon3_sprint129/LinuxToolsDockerRefreshConnection.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock warning&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-warning&quot; title=&quot;Warning&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      A late problem has been found between Neon.3 packages and Docker Tools packages. It has been fixed since then, but
+      you need to install the latest Docker Tools bits from &lt;a class=&quot;bare&quot; href=&quot;http://download.eclipse.org/linuxtools/update-docker-2.3.1&quot;&gt;http://download.eclipse.org/linuxtools/update-docker-2.3.1&lt;/a&gt; if you want
+      the best Docker Tools experience with Neon.3.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 05 Apr 2017 10:21:44 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Service Releases of Third Party Content in the Eclipse IP Due Diligence Process</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=4752</guid>
+	<link>https://waynebeaton.wordpress.com/2017/04/03/service-releases-of-third-party-content-in-the-eclipse-ip-due-diligence-process/</link>
+	<description>&lt;p&gt;Some time ago, the Eclipse Foundation’s Board of Directors passed the following resolution.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;RESOLVED&lt;/strong&gt;, that previously approved dependencies of Eclipse projects can be&lt;br /&gt;
+reviewed and approved by the EMO as follows:&lt;br /&gt;
+a) Service releases (e.g. x.y., bug fixes, security fixes) will require no review.&lt;br /&gt;
+b) Minor revisions (e.g. x..) will require a reduced review by the EMO.&lt;br /&gt;
+c) Major revisions (e.g. ..) will require a full review by the EMO.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;At the time the resolution was passed, it was decided that project teams would still be required to register the use of service releases for third party content with the Eclipse Intellectual Property (IP) team (i.e. create a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-cq&quot;&gt;Contribution Questionnaire&lt;/a&gt;); it was decided that the resolution really only impacted how the IP Team would process the content: at least in theory, the IP Team would &lt;em&gt;rubber stamp&lt;/em&gt; requests for service releases. I say &lt;em&gt;in theory&lt;/em&gt;, because the IP Team would still eyeball these requests and sometimes invest some modest effort to ensure that significant new IP hadn’t been introduced.&lt;/p&gt;
+&lt;p&gt;We’ve reconsidered this position.&lt;/p&gt;
+&lt;p&gt;Project teams are &lt;em&gt;not required&lt;/em&gt; to engage with the Eclipse IP Team to review service releases for third party content, provided that the service release is based on a previously-approved release. This assumes that the providers of the third party content regard service releases in the manner described by Semantic Versioning (i.e. a patch of backwards-compatible bug fixes) and that the service release does not include significant new IP.  Of course, if a project team isn’t sure, they can always just submit the content for review anyway.&lt;/p&gt;
+&lt;p&gt;We envision a scenario where project teams will take advantage of this for milestone builds, but then get full approval for final versions of their third party content. This isn’t required, but it is an option that’s available for project teams that feel that it’s necessary.&lt;/p&gt;
+&lt;p&gt;For major and minor releases, the manner in which the the project team interacts with the Eclipse IP Team does not change. Note that it is implied that the &lt;em&gt;reduced review&lt;/em&gt; for minor releases follows an approved full review for a corresponding major release and that any service release follows an approved major or minor release.&lt;/p&gt;
+&lt;p&gt;For more information, to add your thoughts and concerns, or to track our progress with regard to updating our documentation, add yourself in copy to &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=512465&quot;&gt;Bug 512465&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/4752/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/4752/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=4752&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 03 Apr 2017 20:59:10 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Join the Eclipse Foundation at Devoxx France this Week</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/QLHE8hQxik0/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/QLHE8hQxik0/</link>
+	<description>Devoxx France takes place in Paris on April 5-7, 2017. Be sure to register today!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/QLHE8hQxik0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 03 Apr 2017 15:00:05 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Introducing Eclipse Toolmaker's Day</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/csMRaO1ijvg/workshops</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/csMRaO1ijvg/workshops</link>
+	<description>Created for the tools developer community, Eclipse Toolmaker's Day takes place on Wed April 26 2017 in Budapest, Hungary.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/csMRaO1ijvg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 03 Apr 2017 15:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Stephan Herrmann: Several Languages Java™ 8</title>
+	<guid isPermaLink="false">http://objectteams.wordpress.com/?p=471</guid>
+	<link>https://objectteams.wordpress.com/2017/04/02/several-languages-java-8/</link>
+	<description>&lt;p&gt;More than 3 years ago, on March 18, 2014, Java™ 8 was released, and &lt;a href=&quot;https://www.eclipsecon.org/na2014/javaday.html&quot; target=&quot;_blank&quot;&gt;on the same day &lt;/a&gt;&lt;a href=&quot;https://www.eclipse.org/community/eclipse_newsletter/2014/january/article1.php&quot; target=&quot;_blank&quot;&gt;Eclipse released support for this new version&lt;/a&gt;. I have &lt;a href=&quot;https://www.eclipsecon.org/na2014/sites/default/files/slides/JDT%20Embraces%20Lambda%20Expressions%20-%20ECNA%202014.pdf&quot; target=&quot;_blank&quot; title=&quot;Slide 41 ff&quot;&gt;repeatedly&lt;/a&gt; made &lt;a href=&quot;https://wiki.eclipse.org/images/1/10/DemoCampMunich_Java8_2014.pdf&quot; target=&quot;_blank&quot; title=&quot;Slide 10&quot;&gt;the point&lt;/a&gt; that the Eclipse compiler for Java (&lt;strong&gt;ecj&lt;/strong&gt;) as a second implementation of &lt;a href=&quot;http://docs.oracle.com/javase/specs/jls/se8/html/&quot; target=&quot;_blank&quot;&gt;JLS&lt;/a&gt; (after javac) serves the entire Java community as a premier means for quality assurance.&lt;/p&gt;
+&lt;p&gt;Today, in April 2017, I can report that this effort is still far from complete. Still, JLS, javac and ecj do not define the exact same language. Time to take stock what these differences are about.&lt;/p&gt;
+&lt;p&gt;My own work on ecj focuses on an aspect that tries hard to remain invisible to casual users: &lt;a href=&quot;http://docs.oracle.com/javase/specs/jls/se8/html/jls-18.html&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;type inference&lt;/strong&gt;&lt;/a&gt;. It’s the heavy machinery behind generic methods, diamond expressions and lambdas, allowing users to omit explicit type information in many places, leaving it to the compiler to figure out the fine print.&lt;/p&gt;
+&lt;p&gt;To be honest, when we first shipped support for Java 8, I was well expecting lots of bug reports to come in, which would point out corner cases of JLS that we hadn’t implemented correctly. There was one area, that I felt particularly uneasy about: how type inference blends with &lt;strong&gt;overload resolution&lt;/strong&gt;. During the Mars cycle of development Srikanth thankfully performed a major &lt;a href=&quot;https://bugs.eclipse.org/437444&quot; target=&quot;_blank&quot;&gt;rework and clean up&lt;/a&gt; of this exact area.&lt;br /&gt;
+(I can’t pass the opportunity to report what I learned from this exercise: &lt;em&gt;&lt;a href=&quot;https://gbracha.blogspot.de/2009/09/systemic-overload.html&quot; target=&quot;_blank&quot;&gt;Overloading&lt;/a&gt; is a huge contributor of complexity in the Java language which in (not only) my opinion doesn’t carry its own weight — not a fraction of it&lt;/em&gt;).&lt;/p&gt;
+&lt;h2&gt;We are not done with Java 8&lt;/h2&gt;
+&lt;p&gt;The fact that still 2 years after that rework we constantly receive bug reports against Java 8 type inference is unsettling in a way.&lt;/p&gt;
+&lt;p&gt;To give some numbers to it: during every 6-week milestone we fixed between 1 and 6 bugs in type inference. None of these bugs is solved in a coffee break, some compete for the title “toughest challenge I faced in my career”.&lt;/p&gt;
+&lt;p&gt;We have a total of 103 bugs explicitly marked as 1.8 inference bugs. Of these&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;17 were resolved before Java 8 GA&lt;/li&gt;
+&lt;li&gt;52 have been resolved in the three years since Java 8 GA&lt;/li&gt;
+&lt;li&gt;34 are still unresolved today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This will likely keep me busy for at least one more year.&lt;/p&gt;
+&lt;p&gt;In the early days of Java 8 we could identify two clusters where behavioral differences between javac and ecj could be observed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;wildcard capture&lt;/li&gt;
+&lt;li&gt;raw types&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(I’ll have a note about the latter at the &lt;a href=&quot;https://objectteams.wordpress.com/category/eclipse/feed/#rawtypes&quot;&gt;end of this post&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In these areas we could comfort ourselves by pointing to &lt;a href=&quot;https://bugs.openjdk.java.net/browse/JDK-8016207&quot; target=&quot;_blank&quot;&gt;known&lt;/a&gt; &lt;a href=&quot;https://bugs.openjdk.java.net/browse/JDK-8026527&quot; target=&quot;_blank&quot;&gt;bugs&lt;/a&gt; in javac. We even implemented code to conditionally mimic some of these javac bugs, but frankly, establishing bug compatibility is even more difficult than truthfully implementing a specification.&lt;/p&gt;
+&lt;p&gt;Meanwhile, in the area of wildcard capture, javac has been significantly improved. Even though some of these fixes appear only in Java 9 early access builds, not in Java 8, we can observe both compilers converging, and given that the major bugs have been fixed, it is getting easier to focus on remaining corner cases. Good.&lt;/p&gt;
+&lt;h2&gt;Java “8.1”&lt;/h2&gt;
+&lt;p&gt;One event almost went under our radar: In February 2015 a &lt;a href=&quot;http://download.oracle.com/otndocs/jcp/java_se-8-mr-spec/index.html&quot; target=&quot;_blank&quot;&gt;revised version of JLS 8 &lt;/a&gt;was published. As part of this update, a few sentences have been added on behalf of &lt;a href=&quot;https://bugs.openjdk.java.net/browse/JDK-8038747&quot; target=&quot;_blank&quot;&gt;JDK-8038747&lt;/a&gt;. While the spec may be hard to grok by outsiders, the goal can be explained as enabling a compiler to include more type hints from the bodies of lambda expressions that are nested inside a generic method invocation.&lt;/p&gt;
+&lt;p&gt;In fact, collecting type information from different levels in the AST was a big goal of the type inference rewrite in Java 8, but without the 2015 spec update, compilers weren’t even allowed to look into the body of a lambda, if the lambda does not specify types for its arguments.&lt;/p&gt;
+&lt;div&gt;
+&lt;table border=&quot;1&quot; class=&quot;code&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;otj&quot; style=&quot;font-family: monospace; text-align: center;&quot;&gt;m(a -&amp;gt; a.b())&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: center; font-family: sans-serif;&quot;&gt;What do we know about b, while types for m and a are still unknown?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;Conceptually, this is immensely tricky, because generally speaking, the code in the bodies of such type-elided lambdas can mean just about anything, while the signature of the lambda is not yet known. So we were happy about the spec update, as it promised to resolve a bunch of test cases, where javac accepts programs that ecj – without the update – was not able to resolve.&lt;/p&gt;
+&lt;p&gt;Ever since, each improved version of ecj created a &lt;strong&gt;regression&lt;/strong&gt; for one or more of our dear users. We debugged no end, read between the lines of JLS, but couldn’t find a solution that would satisfy users in all cases. And they kept complaining that javac had no problems with their programs, even earlier versions of ecj accepted their program, so rejecting it now must be a regression.&lt;/p&gt;
+&lt;h2&gt;“Switching the alliance”&lt;/h2&gt;
+&lt;p&gt;Up-to that point, I saw our main ally in the authors of JLS, Dan Smith and Alex Buckley from Oracle. In particular Dan Smith has been a tremendous help in understanding JLS 8 and analyzing where our reading of it deviated from the authors’ intention. Together we identified not only bugs in my interpretation and implementation of JLS, but also several bugs in javac.&lt;/p&gt;
+&lt;p&gt;When we iterated bugs relating to JDK-8038747 time and again, this approach was less effective, coming to no conclusion in several cases. I slowly realized, that we were reaching a level of detail that’s actually easier to figure out when working with an implementation, than at the specification level.&lt;/p&gt;
+&lt;p&gt;This is when I started to seek advice from javac developers. Again, I received very valuable help, now mostly from Maurizio Cimadamore. Previously, my perception was, that JLS is the gold standard, and any deviation or even just liberal interpretation of it is bad. During the discussion with Maurizio I learned, that in some sense javac is actually “better” than JLS, not only in accepting more type-correct programs, but also in terms of better reflecting the intention of the JSR 335 experts.&lt;/p&gt;
+&lt;p&gt;So I started to deliberately deviate from JLS, too. Instead of “blaming” javac for deviating from JLS, I now “blame” JLS for being incomplete wrt the intended semantics.&lt;/p&gt;
+&lt;p&gt;To put this effort into proportion, please consider the figure of 103 bugs mentioned above. From these, 17 bugs have a reference to JDK-8038747. Coincidentally, this is the exact same number as those great bug reports prior to Java 8 GA, that gave us the huge boost, enabling us to indeed deliver a high quality implementation right on GA. In other words, this is a huge engineering effort, and we have no idea, how close to done we are. Will we face the next round of regressions on every new release we publish?&lt;/p&gt;
+&lt;p&gt;If you work from a specification, there is a point where you feel confident that you did all that is required. Knowing that fulfilling the spec is not enough, it’s impossible to say, what &lt;em&gt;is&lt;/em&gt; “enough”.&lt;/p&gt;
+&lt;h2&gt;What is “better”?&lt;/h2&gt;
+&lt;p&gt;With wildcard captures and raw types, it was easy to argue, that certain programs &lt;em&gt;must&lt;/em&gt; be rejected by a compiler, because they are not type safe and can blow up at runtime in unexpected locations. In the area around JDK-8038747 javac tends to accept more programs than JLS, but here it would be unreasonable to expect javac to change and start rejecting these “good” programs.&lt;/p&gt;
+&lt;p&gt;Still, calling out a competition of who accepts more “good” programs would be a bad idea, too, because this would completely abandon the goal of equivalence between compilers. After compiling with one compiler, one could never be sure that another compiler would also accept the same program. The term “Java” would loose its precise meaning.&lt;/p&gt;
+&lt;p&gt;This implies, every attempt to better align ecj with javac, based on knowledge about the implementation and not based on JLS, should be seen as a temporary workaround. To resume its role of leadership, JLS must catch up with any improvements done in the implementation(s).&lt;/p&gt;
+&lt;p&gt;To comfort the reader, I should say that in all cases discussed here, there’s always a safe fallback: when inference fails to find a solution, it is always possibly to help the compiler by adding some explicit type arguments (or argument types for a lambda). More importantly, such additions, which may be required for one compiler, should never cause problems for another compiler.&lt;/p&gt;
+&lt;p&gt;Also note, that explicit type arguments are always to be preferred over type casts (which some people tend to use as a workaround): type arguments will help for effective type checking, whereas type casts &lt;em&gt;bypass&lt;/em&gt; type checking and can blow up at runtime.&lt;/p&gt;
+&lt;h2&gt;Thanks and Sorry!&lt;/h2&gt;
+&lt;p&gt;I wrote this post in the desire to reach out to our users.&lt;/p&gt;
+&lt;p&gt;First: Each reproducible bug report is highly valuable; this is what drives JDT code towards higher and higher quality. By accumulating test cases from all these reports we gradually create a test suite that provides the best available safety net.&lt;/p&gt;
+&lt;p&gt;Second: I am sorry about every regression introduced by any of our fixes, but as this post should explain, we are traveling uncharted territory: some of the corner cases we are currently addressing are not sufficiently covered by JLS. Additionally, type inference is inherently sensitive to the slightest of changes. Predicting, which programs will be affected by a given change in the implementation of type inference is near impossible.&lt;/p&gt;
+&lt;p&gt;Yet, it’s certainly not a game of “them” vs “us”: JLS, javac, and ecj, we’re all in this together, and only by continuing to talk to each other, eventually we will all speak the same language, when we say “Java 8”. Please bear with us as the saga continues …&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;rawtypes&quot;&gt;PS: Another pet peeve&lt;/h2&gt;
+&lt;p&gt;I am a type system enthusiast, mostly, because I like how type checkers can completely &lt;a href=&quot;https://www.eclipsecon.org/na2014/sites/default/files/slides/JDTEmbracesTypeAnnotations.pdf&quot; target=&quot;_blank&quot;&gt;eliminate entire categories of bugs&lt;/a&gt; from your programs. I like to give a guarantee that no code that is accepted by the compiler will ever fail at runtime with an exception like attempting to invoke a method that is not present on the receiver, or class cast exceptions in source code that doesn’t mention any class cast. Type inference is the tool that alleviates the verbosity of explicitly typed programs, while at the same time maintaining the same guarantees about type safety.&lt;/p&gt;
+&lt;p&gt;Unfortunately, there is a class of Java programs for which such guarantees can not be given: if a program uses raw types, the compiler needs to generate lots of checkcast instructions, to make the code acceptable for the JVM. Each of these instructions can cause the program to blow up at runtime in totally unsuspicious locations.&lt;/p&gt;
+&lt;p&gt;There are situations where javac silently assumes that a raw type List is a subtype of its parameterized form List&amp;lt;String&amp;gt;. This is wrong. Still I cannot just ignore this problem, because lots of “bugs” are reported against ecj, based on the observation that javac and ecj accept different programs, where in many cases the difference concerns the handling of raw types during type inference.&lt;/p&gt;
+&lt;p&gt;Economically speaking, investigating in the subtleties of how Java 8 compilers handle raw types is a huge waste of efforts. Any one reading this: if you want to do me a favor, and thus help me to focus on the most relevant aspects of compiler development, please clean up your code. If you keep your code private, nobody will suffer except from yourself, but please, before posting a bug report against JDT, if your code example contains raw types, think thrice before submitting the report. Adding proper type arguments will certainly improve the quality of your code. Likely, after that exercise also ecj will be a lot happier with your code and give you correct answers.&lt;/p&gt;
+&lt;p&gt;Do I need to repeat that raw types were a workaround for migrating towards Java 5? … that raw types were discouraged starting from day 1 of Java 5? If that doesn’t convince you, search on StackOverflow for questions mentioning raw types and type inference, and you will see that by the use of raw types you are basically disabling much of the power of type inference. Let’s &lt;em&gt;please&lt;/em&gt; shed the legacy of raw types.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/objectteams.wordpress.com/471/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/objectteams.wordpress.com/471/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=objectteams.wordpress.com&amp;amp;blog=52525906&amp;amp;post=471&amp;amp;subd=objectteams&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Sun, 02 Apr 2017 19:43:26 +0000</pubDate>
+</item>
+<item>
+	<title>Melanie Bats: Back to the Future: Eclipse Converge &amp; Devoxx US</title>
+	<guid isPermaLink="false">http://melb.enix.org/?p=436</guid>
+	<link>http://melb.enix.org/general/back-to-the-future-eclipse-converge-devoxx-us/</link>
+	<description>&lt;p&gt;Last week, &lt;a href=&quot;https://www.obeo.fr/en/&quot;&gt;Obeo&lt;/a&gt; sent me to San Jose, California to attend the 1st &lt;a href=&quot;https://www.eclipseconverge.org/na2017/&quot;&gt;Eclipse Converge&lt;/a&gt; and &lt;a href=&quot;https://devoxx.us/&quot;&gt;Devoxx US&lt;/a&gt; which was really cool of them. It makes sense to co-locate those events as both involved Java developers and open source projects. I really believe that these communities have so many things to share that this week in California would be a great occasion to learn from each other.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Back to the Future&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/back_to_the_future.jpg?raw=true&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;eclipse-converge&quot;&gt;Eclipse Converge&lt;/h2&gt;
+&lt;p&gt;I started my week by attending &lt;a href=&quot;https://www.eclipseconverge.org/na2017/&quot;&gt;Eclipse Converge&lt;/a&gt;, a one-day event dedicated to the Eclipse community and co-located with the IoT day.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Eclipse Converge &amp;amp; IoT day&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/eclipse_converge_iot_day.jpg?raw=true&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The number of Eclipse committers present was amazing, which was particularly noticeable thanks to the Eclipse committer swag, a cool purple hoodie!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Eclipse Committer Hoodie&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/eclipse_hoodie.jpg?raw=true&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;One thing I noticed is that this year for the first time, they have it in women sizes! This is one of those little things which helps our community to become more diverse! Thanks Eclipse Foundation, I love it so much!&lt;/p&gt;
+&lt;p&gt;As all Eclipse events, it was a great moment of social networking, attending high quality talks, meeting the usual suspects and getting the chance to exchange with american Eclipse community members.&lt;/p&gt;
+&lt;h2 id=&quot;devoxx-us&quot;&gt;Devoxx US&lt;/h2&gt;
+&lt;p&gt;The day after, &lt;a href=&quot;https://devoxx.us/&quot;&gt;Devoxx US&lt;/a&gt; started! It was a new chance for me to meet this extended community, as this was my first Devoxx ever and no doubt Devoxx is a great event. Thanks to the Eclipse Foundation for having gathered 700 attendees from 31 countries in the same place during 3 days. One of the important thing about Devoxx is that it is a vendor neutral event: not everything is related to Eclipse or a specific IDE, there’s a much wider diversity of content. Thanks to this, I’ve been able to attend many different demos based on different IDEs. This allowed me to notice some interesting differences:&lt;/p&gt;
+&lt;p&gt;I loved the clean UI of VSCode,&lt;/p&gt;
+&lt;p&gt;I appreciated the templates and the zoom in IntelliJ that allow fluent live coding demos,&lt;/p&gt;
+&lt;p&gt;I was impressed by the &lt;a href=&quot;https://www.eclipseconverge.org/na2017/session/how-provide-portable-developer-workspace-eclipse-che&quot;&gt;talk by Stevan Lemeur and Florent Benoit&lt;/a&gt; and the easy setup of Eclipse Che thanks to CheFile and Factories! From just clicking on an hyperlink, it will provide you a complete IDE in your browser with all the tools, projects and source code you need. This opens a really cool possibility for open source projects who want to ease the effort to start contributing.&lt;/p&gt;
+&lt;p&gt;I discovered the new stuff that will be relased in June with the next Eclipse Oxygen version. Wayne Beaton from the Eclipse Foundation and Gunnar Wagenknecht from SalesForce did an interesting &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/RNK-9521/Developing_Java_Applications_with_the_Eclipse_IDE,_Neon_Edition&quot;&gt;talk&lt;/a&gt; about all these useful projects existing or arriving: Code recommenders, ECLEmma, Graphviz editor, Improved UX with a better use of screen space (margins reduced, default styling…), support of Java9 and JUnit5, and a new Generic Editor becoming particularly useful combined with the Language Server Protocol.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Eclipse Oxygen&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/eclipse_oxygen.jpg?raw=true&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;language-server-protocol&quot;&gt;Language Server Protocol&lt;/h2&gt;
+&lt;p&gt;Until I heard about LSP, I did not realize how complex it is for language developers to get a good support and tooling of their language in all those different IDEs. A really clear introduction to LSP was given by Sven Efftinge from TypeFox who explained the origin, the status and the potential of LSP for the Eclipse community.&lt;img alt=&quot;Language Server Protocol Explained&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/lsp.jpg?raw=true&quot; /&gt;Thanks to this talk, I now understand better the power of the LSP. Open sourced by Microsoft for VS Code, the Language Server Protocol is the new trend for language editors. In a few months, Microsoft, Red Hat, Codenvy and many others started collaborating to implement it for VS Code, Eclipse, Eclipse Che, Emacs and even Gnome builder! Only open source can create this kind of synergy and cooperation. In Eclipse, it results in three new projects that will be released with the next Eclipse Oxygen :&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://projects.eclipse.org/proposals/eclipse-lsp4e&quot;&gt;LSP4E&lt;/a&gt;: provides integration of language servers conforming to the Language Server Protocol into the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://projects.eclipse.org/proposals/eclipse-lsp4j&quot;&gt;LSP4J&lt;/a&gt;: provides a reusable Java implementation of LSP. It implements the types as well as the communication, including serialization to and deserialization from JSON.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=497871&quot;&gt;Generic editor&lt;/a&gt;: supports easily new languages. For the next release, LSP will allow to get the same level of support for JS in Eclipse and VS Code. But even more when like me you are working on Domain Specific Language, this could be really powerful: imagine you’re developing your own DSL and you easily get support for it in all the editors. This is possible now thanks to Xtext Core. This is only the beginning, there are some remaining issues to solve around extensibility, creating a market place, supporting debug features… At the moment the LSP is dedicated to textual editors, I expect that one day it can be extended to graphical editors too!&lt;/p&gt;
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;Open source allows to gather skilled people from different companies to develop together around a common goal. A conference like Devoxx allows you to advance your personal knowledge and to become an innovation agent in your own company. The organizers define it as a “Conference for developers by developers”. I attended many talks that highlighted how important it is in our domain to learn from our peers. &lt;a href=&quot;https://medium.com/@markog&quot;&gt;Marko Gargenta&lt;/a&gt; in his talk about &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/JVD-8929/Peer_Learning&quot;&gt;Peer Learning&lt;/a&gt; narrated his experience at Twitter and explained that there are different ways to share knowledge, classically by organizing techie classes but not only. One of the interesting things I remember from his talk is the need to share knowledge about technical aspects, but also about the company culture, for example by recounting what he named &lt;em&gt;War Stories&lt;/em&gt;. Ryan Sonnenberg talked about what they did to disseminate the knowledge at Uber while they scale. From his point of view, best practices shared by code reviews do not scale as an individual reviewing code cannot disseminate knowledge fast enough. The main point for him is to hook into the build system in order to enforce patterns and so eliminate the repetitive work and cumbersome manual processes: use static analysis, &lt;a href=&quot;http://findbugs.sourceforge.net/&quot;&gt;FindBugs&lt;/a&gt;, &lt;a href=&quot;http://fbinfer.com/docs/eradicate.html&quot;&gt;Infer:Eradicate&lt;/a&gt;, &lt;a href=&quot;https://github.com/typetools/checker-framework.demos/tree/master/presentations/2017-DevoxxUS&quot;&gt;checker framework&lt;/a&gt;… I attended three other good talks sharing best practices from the battlefield:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/StevePoole/ten-simple-rules-for-writing-great-testcases-devoxx-us&quot;&gt;Ten simple rules for writing great test cases&lt;/a&gt; by Stuart Marks &amp;amp; Steve Poole: Rules to maximize your effort &amp;amp; protect investment in tests&lt;img alt=&quot;Ten simple rules for writing great testcases&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/ten_simple_rule_for_wrinting_testcases.jpg?raw=true&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://haughtcodeworks.com/blog/software-development/prototyping-mindset/&quot;&gt;Prototyping mindset&lt;/a&gt; by Marty Haught: Invoke YAGNI whenever it makes sense and reduce the complexity of your solution!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2016/content/testing-eclipse-plug-ins-lessons-field&quot;&gt;Test Lessons from the field&lt;/a&gt; and &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/RQL-8052/Effective_Unit_Testing&quot;&gt;Effective Unit Testing&lt;/a&gt; by Elliotte Rusty Harold, Simple and easy to follow advices for every day that could be summarized by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Separate your Eclipse/Non Eclipse code, your GUI/Non GUI projects,&lt;/li&gt;
+&lt;li&gt;Test also your configuration files (plugin.xml, MANIFEST.MF, plugin.properties…),&lt;/li&gt;
+&lt;li&gt;One of the most obvious advice but definitely worth to be heard when you found a bug first write a test and then fix the bug.&lt;/li&gt;
+&lt;li&gt;And finally use Continuous Integration and code coverage tools like Cobertura or Jacoco.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;build&quot;&gt;Build&lt;/h2&gt;
+&lt;p&gt;Build was also the topic of several excellent talks. I always use Maven just from habit and not really because I love it. That’s the case for most of us, we use it and hate it. Andy Gumbrecht proposed an intriguing ignite session by declaring &lt;a href=&quot;http://www.tomitribe.com/blog/2016/06/i-do-not-hate-apache-maven/&quot;&gt;I do not hate Maven&lt;/a&gt;. He explained that it is not useful to fight against Maven, when you have to do something with it just do it the Maven way. For him your pom hygiene is the key, it should read like a book, keep it clean and tidy. Manage your environment at the highest possible level in your top parent and invest in global properties to control it. Manage versions and not scopes. Groovy gives the ability to do anything at any stage of the build, so use it. And when you have a Maven issue, just remember that Google is your friend!&lt;/p&gt;
+&lt;p&gt;I took the time to explore what other build systems can offer. An excellent tools in action was proposed by Baruch Sadogursky &amp;amp; Oleg Šelajev about &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/XFT-7496/Maven_v_Gradle:_Dawn_of_Project_Automation&quot;&gt;Maven vs Gradle&lt;/a&gt;, it was mostly a demo comparing the tools on the same project. At the end, my impression was that both provide the same features, it is more a matter of taste: Maven due to XML is very verbose and Gradle feels more readable/maintainable. For the ones using Eclipse like me, using the &lt;a href=&quot;https://www.eclipse.org/m2e/&quot;&gt;M2E&lt;/a&gt; plugin can help, for Gradle lovers, a thorough &lt;a href=&quot;https://github.com/diffplug/gradle-and-eclipse-rcp&quot;&gt;overview of the Gradle tooling available in Eclipse&lt;/a&gt; was done by Ned Twigg. To go further, and for whom performance matters, Ryan Sonnenberg during his session &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/SSI-8355/Building_at_Uber_scale&quot;&gt;Building at Uber scale&lt;/a&gt; talked about &lt;a href=&quot;https://github.com/uber/okbuck&quot;&gt;OkBuck&lt;/a&gt;, a plugin to use &lt;a href=&quot;https://buckbuild.com/&quot;&gt;Buck&lt;/a&gt; build system on Gradle project.&lt;/p&gt;
+&lt;h2 id=&quot;jdk8&quot;&gt;JDK8&lt;/h2&gt;
+&lt;p&gt;I took time also to inspect some classical APIs. My first astonishment is that : Yes it is possible to do a 1h talk only about &lt;a href=&quot;https://stuartmarks.files.wordpress.com/2017/03/optionalmotherofallbikesheds-devoxxbe2016.pdf&quot;&gt;Optional&lt;/a&gt;! Stuart Marks did it and it was pretty interesting. Going through examples, he declaimed the following seven rules which for sure have to be pinned to my wall :&lt;img alt=&quot;Optional - The Mother of all Bikesheds&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/ten_simple_rule_for_wrinting_testcases.jpg?raw=true&quot; /&gt;One more talk I found useful is the one about &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/PEV-2089/Collections.compare(JDK,_Eclipse,_Guava,_Apache...)&quot;&gt;comparing the different Java Collections libraries&lt;/a&gt;. You know this doubt you have sometimes: should I use Java Collections? Guava? Eclipse Collections? Which one would be the most effective in my situation? The following summary can help you take a decision:&lt;img alt=&quot;Collections.compare&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/collections_compare.jpg?raw=true&quot; /&gt;Stuart Marks again demonstrated the new features of collections in Java 8, as well as what’s coming in Java 9: &lt;a href=&quot;https://www.youtube.com/watch?v=LgR9ByD1dEw&quot;&gt;Collections Refueled&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;jdk9&quot;&gt;JDK9&lt;/h2&gt;
+&lt;p&gt;As you guess, one of the hot topic during Devoxx was the new Java 9! Definitely, the next stop for the Java developers will be the upcoming release of the JDK9, on July, 27th. Notice that finally Oracle adjusted the versioning scheme: they will no longer be named 1.x! There were lots of Oracle talks about Jigsaw, the new modular way of coding. In fact, this is not that exciting, even more when you are working in the OSGI world as I do since many years now. For most Java developers, this seems mostly like something which looks painful as it might break everything. Trisha Gee did a great talk &lt;a href=&quot;https://www.youtube.com/watch?v=96vce1qd0QY&quot;&gt;Anticipating Java 9 functionnality &amp;amp; tooling&lt;/a&gt; presenting what we could expect more from Java 9 and demonstrates how IntelliJ already support it. Worth mentioning that Eclipse also already has support for JDK 9 thanks to the great work done by the IBM JDT team. They announced a special Eclipse update available at the end of July to support it the day of the JDK9 official release. So what are those little and big things I await for Java9 ?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Better everything: memory, performance, doc, faster compilation…&lt;/li&gt;
+&lt;li&gt;New methods on stream API: takeWhile/DropWhile, List.of/Set.of/Map.of/Map.ofEntries&lt;/li&gt;
+&lt;li&gt;HTML5 Javadoc&lt;/li&gt;
+&lt;li&gt;Javadoc search&lt;/li&gt;
+&lt;li&gt;Private static methods available in interface&lt;/li&gt;
+&lt;li&gt;@Deprecated(since, forRemoval)&lt;/li&gt;
+&lt;li&gt;New process API&lt;/li&gt;
+&lt;li&gt;Java9 REPL: JShell&lt;/li&gt;
+&lt;li&gt;Flow API which means that reactive programming is an important programming paradigm now and is really here to stay. You do not know yet what it means? Have a look at the good introduction by Venkat Subramaniam about &lt;a href=&quot;https://www.youtube.com/watch?v=weWSYIUdX6c&quot;&gt;Reactive Programming in Java&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;modern-web&quot;&gt;Modern web&lt;/h2&gt;
+&lt;p&gt;I am not a web developer but I attended few interesting talks about modern web development as well, my top 3:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VT4xsDCeDxE&quot;&gt;Binge streaming your web API&lt;/a&gt; by Audrey Neveu &amp;amp; Guillaume Laforge where I discovered the principle of Server-Sent Events and a great use of JSON patch.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/yfain/angular-4-for-java-developers&quot;&gt;Angular2 for Java dev&lt;/a&gt; by Yakov Fain which demystifies the Angular framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/NWB-0408/Is_Your_JavaScript_Ready_for_the_Enterprise%3F_What_Does_That_Even_Mean%3F&quot;&gt;Is your JavaScript ready for enterprise ?&lt;/a&gt; by John Brock who tought me to resist to the hype, to rediscover HTML5 and to choose between all the JS frameworks and libraries options.&lt;/p&gt;
+&lt;h2 id=&quot;homeworks&quot;&gt;Homeworks&lt;/h2&gt;
+&lt;p&gt;As usual coming back from a conference, I still have some homework to do now, I will just share what will be the next stops for me, I should have a look at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/szczepiq/mockito-devoxx-2017&quot;&gt;Mockito 2&lt;/a&gt; : I have to re-try this popular mock framework which can be used in conjunction with JUnit to write even cleaner tests.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/christophd/citrus-demo-devoxx-us&quot;&gt;Cucumber &amp;amp; Citrus&lt;/a&gt; : was not able to attend this one, I am waiting for the video.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cfp.devoxx.us/2017/talk/ZCD-4979/JUnit_5_-_The_New_Testing_Framework_for_Java_and_Platform_for_the_JVM&quot;&gt;JUnit5&lt;/a&gt; : one of the best news of this week, a complete redesign of the JUnit framework, that will arrive soon and well &lt;a href=&quot;https://www.eclipseconverge.org/na2017/sites/default/files/slides/Embracing%20JUnit%205%20with%20Eclipse.pdf&quot;&gt;integrated in Eclipse&lt;/a&gt; for the Oxygen.1 release for this fall.&lt;/p&gt;
+&lt;h2 id=&quot;open-your-mind&quot;&gt;Open your mind&lt;/h2&gt;
+&lt;p&gt;To conclude, DevoxxUS was really impressive in terms of technical contents. There were also lots of fun and unexpected sessions. I laughed out loud during the session about &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/OTY-5246/The_Business_of_Technology_Business_Technology&quot;&gt;the Business of Technology Business Technology&lt;/a&gt; by Chet Haase and the &lt;a href=&quot;http://javaposse.com/&quot;&gt;Java Posse&lt;/a&gt; live podcast and moreover I learned diverse things like &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/YOX-8173/Developer's_guide_to_HomeBrewing..._&quot;&gt;home brewering&lt;/a&gt; or &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/FEI-0558/How_NOT_to_restore_a_VW_Bus&quot;&gt;how to not restore a VW bus&lt;/a&gt;. Finally, I opened my mind to new horizons with great sessions about experiments around &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/NHF-2672/Personality_Is_the_New_Ringtone:_Experiments_in_AI_design&quot;&gt;AI design&lt;/a&gt;, &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/OHB-4306/Deep_learning_in_biomedicine:_challenges_and_opportunities&quot;&gt;deep learning&lt;/a&gt;, &lt;a href=&quot;http://cfp.devoxx.us/2017/talk/VUB-9615/New_Computer_Architectures_:_Explore_Quantum_Computers_&amp;amp;_SyNAPSE_neuromorphic_chips&quot;&gt;quantum computing&lt;/a&gt;! No doubt now I have to attend the other Devoxx in France, in Belgium and in US again. If you have the chance to attend &lt;a href=&quot;https://www.devoxx.fr/&quot;&gt;Devoxx France&lt;/a&gt; next week, come by to say ‘Hi’ to the Obeo guys at the &lt;a href=&quot;https://www.devoxx.fr/assets/images/plan_stands.jpg&quot;&gt;Eclipse Foundation booth 26&lt;/a&gt;. See you there in the future!&lt;img alt=&quot;Where we're going we don't need roads&quot; class=&quot;aligncenter&quot; src=&quot;https://github.com/mbats/mbats.github.io/blob/master/img/devoxxus/roads.jpg?raw=true&quot; /&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 31 Mar 2017 12:15:50 +0000</pubDate>
+</item>
+<item>
 	<title>PapyrusUML: An academic perspective on software product lines webinar</title>
 	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=595</guid>
 	<link>https://papyrusuml.wordpress.com/2017/03/29/an-academic-perspective-on-software-product-lines-webinar/</link>
@@ -24,7 +282,7 @@
 	<pubDate>Wed, 29 Mar 2017 11:54:19 +0000</pubDate>
 </item>
 <item>
-	<title>Eclipse Announcements: Provide Your Feeback | Eclipse Foundation Survey</title>
+	<title>Eclipse Announcements: Provide Your Feedback | Eclipse Foundation Survey</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/jzDZ5BJi-AM/20170329_eclipsesurvey2017.php</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/jzDZ5BJi-AM/20170329_eclipsesurvey2017.php</link>
 	<description>Provide your opinion on open source and the Eclipse Foundation. Take our survey today!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/jzDZ5BJi-AM&quot; width=&quot;1&quot; /&gt;</description>
@@ -542,20 +800,6 @@ String askForName() {
 	<pubDate>Thu, 23 Mar 2017 13:08:16 +0000</pubDate>
 </item>
 <item>
-	<title>Eclipse Announcements: Eclipse Newsletter - Internet of all the Things</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/cjjrutQ1upQ/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/cjjrutQ1upQ/</link>
-	<description>The articles feature Eclipse IoT projects including, Eclipse Hono, Eclipse ioFog, Eclipse Kapua, and Eclipse Vorto.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/cjjrutQ1upQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 23 Mar 2017 12:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Board Election Results 2017</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/d32JLQRzac8/20170323_boardannouncement.php</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/d32JLQRzac8/20170323_boardannouncement.php</link>
-	<description>The Eclipse Foundation announces the 2017 Board Member Election Results.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/d32JLQRzac8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 23 Mar 2017 11:00:00 +0000</pubDate>
-</item>
-<item>
 	<title>Orion: Orion 14.0 New and Noteworthy</title>
 	<guid isPermaLink="false">http://planetorion.org/news/?p=879</guid>
 	<link>http://planetorion.org/news/2017/03/orion-14-0-new-and-noteworthy/</link>
@@ -611,240 +855,6 @@ String askForName() {
 	<link>https://medium.com/@roxanne.iot/open-iot-challenge-3-0-winners-88fe75db263c?source=rss-82f8afd3e513------2</link>
 	<description>&lt;p&gt;In case you missed the Eclipse IoT announcement last week, the &lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;Open IoT Challenge 3.0 winners&lt;/a&gt; were announced!&lt;/p&gt;&lt;h3&gt;And the winners are…&lt;/h3&gt;&lt;figure&gt;&lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/750/1*GrTXE-OQ_fL4HYDOEjhD-w.png&quot; /&gt;&lt;/a&gt;Open IoT Challenge 3.0 Winners&lt;/figure&gt;&lt;p&gt;Congratulations to the &lt;a href=&quot;https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc&quot;&gt;InMoodForLife&lt;/a&gt; team for coming in first. Their solution analyzes and monitors the sleep patterns of individuals affected by bipolar disorder. The goal of the solution is to improve the therapeutic approach, react, and adapt the treatment faster. The team already shared part of their future plans with us and it sounds very promising! We hope they will go on to help many individuals suffering from bipolar disorder.&lt;/p&gt;&lt;p&gt;The krishi IoT and RHDS teams also worked very hard and delivered great solutions. &lt;a href=&quot;https://www.eclipse.org/org/press-release/openiotchallenge3_winners.php&quot;&gt;Read the full announcement&lt;/a&gt; to find out more.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/720/1*V7gJkIKmcuE7zepATG943A.png&quot; /&gt;Open IoT Challenge 3.0 Sponsors&lt;/figure&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=88fe75db263c&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 20 Mar 2017 10:07:55 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Scala is here</title>
-	<guid isPermaLink="true">http://vertx.io/blog/scala-is-here</guid>
-	<link>http://vertx.io/blog/scala-is-here</link>
-	<description>&lt;article&gt;&lt;h2 id=&quot;tl-dr&quot;&gt;TL;DR&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Scala support for Vert.x is here!&lt;/li&gt;
-&lt;li&gt;It is based on Scala 2.12, no support for 2.11 planned&lt;/li&gt;
-&lt;li&gt;all Vert.x-modules are available in a Scala flavor&lt;/li&gt;
-&lt;li&gt;It’s awesome&lt;/li&gt;
-&lt;li&gt;Get started &lt;a href=&quot;https://github.com/vert-x3/vertx-sbt-starter&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;The rise of &lt;a href=&quot;http://scala-lang.org/&quot;&gt;Scala&lt;/a&gt; as one of the most important languages on the JVM caught many (me included) by surprise. This hybrid of functional and imperative paradigms struck a chord with many developers. Thanks to Scala a lot of people who’d never have touched a language like Haskell got exposed to functional programming. This exposure was one of the driving forces to get streams and lambda into the JVM.&lt;/p&gt;
-&lt;p&gt;With the release of Vert.x 3.4.0 we finally introduced Scala to the family of supported languages: &lt;a href=&quot;https://github.com/vert-x3/vertx-lang-scala&quot;&gt;vertx-lang-scala&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In this post I will introduce the new stack and how the power of Scala can be used in your favorite reactive toolkit.&lt;/p&gt;
-&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
-&lt;p&gt;vertx-lang-scala is based on Scala 2.12. There are no plans to support 2.11.&lt;/p&gt;
-&lt;p&gt;All modules available for Vert.x are supported (you can check  &lt;a href=&quot;https://github.com/vert-x3/vertx-lang-scala/tree/master/vertx-lang-scala-stack&quot;&gt;here&lt;/a&gt; ).&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block note&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;title&quot;&gt;Future and Promise both need a ExecutionContext &lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;content&quot;&gt; Modules use the following naming-scheme: &lt;em&gt;io.vertx:-scala_2.12:&lt;/em&gt;. The Scala version of &lt;em&gt;io.vertx:vert-web:3.4.0&lt;/em&gt; would be &lt;em&gt;io.vertx:vertx-web-scala_2.12:3.4.0&lt;/em&gt;.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;There is an sbt-based &lt;a href=&quot;https://github.com/vert-x3/vertx-sbt-starter&quot;&gt;quickstart-project&lt;/a&gt; available that will be updated for each Vert.x-release.&lt;/p&gt;
-&lt;p&gt;Please note: Although &lt;a href=&quot;http://www.scala-sbt.org/&quot;&gt;sbt&lt;/a&gt; is used in this quickstart it is by no means required. There are no special plugins involved so vertx-lang-scala can easily be used with &lt;a href=&quot;https://docs.gradle.org/current/userguide/scala_plugin.html&quot;&gt;Gradle&lt;/a&gt; or &lt;a href=&quot;https://github.com/davidB/scala-maven-plugin&quot;&gt;Maven&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I use sbt as it is the default build system used for Scala projects.&lt;/p&gt;
-&lt;h2 id=&quot;quickstart&quot;&gt;Quickstart&lt;/h2&gt;
-&lt;p&gt;Let’s get started by cloning the quickstart:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git clone git@github.com:vert-x3/vertx-sbt-starter.git&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You just got the following things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;An sbt project containing dependencies to Vert.x-core and Vert.x-web&lt;/li&gt;
-&lt;li&gt;The ability to create a fat-jat via &lt;code&gt;sbt assembly&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;The ability to create a docker container via &lt;code&gt;sbt docker&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;A few example verticles&lt;/li&gt;
-&lt;li&gt;Unit test examples&lt;/li&gt;
-&lt;li&gt;a pre-configured Scala-shell inside sbt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We will now run the application to get some quick satisfaction. Use &lt;code&gt;sbt assembly&lt;/code&gt; to produce the fat-jar followed by &lt;code&gt;java -jar target/scala-2.12/vertx-scala-sbt-assembly-0.1-SNAPSHOT.jar&lt;/code&gt;. Now point your browser to &lt;a href=&quot;http://localhost:8666/hello&quot;&gt;http://localhost:8666/hello&lt;/a&gt; for a classic welcome message.&lt;/p&gt;
-&lt;h2 id=&quot;the-details&quot;&gt;The details&lt;/h2&gt;
-&lt;p&gt;Open your IDE so we can take a look at what’s going on under the hood. We start with the &lt;em&gt;HttpVerticle&lt;/em&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;package&lt;/span&gt; io.vertx.scala.sbt
-
-&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; io.vertx.lang.scala.&lt;span class=&quot;hljs-type&quot;&gt;ScalaVerticle&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; io.vertx.scala.ext.web.&lt;span class=&quot;hljs-type&quot;&gt;Router&lt;/span&gt;
-
-&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; scala.concurrent.&lt;span class=&quot;hljs-type&quot;&gt;Future&lt;/span&gt;
-
-&lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;HttpVerticle&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;ScalaVerticle&lt;/span&gt; {&lt;/span&gt; &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;1&amp;gt;&lt;/span&gt;
-
-
-  &lt;span class=&quot;hljs-keyword&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;startFuture&lt;/span&gt;(&lt;/span&gt;): &lt;span class=&quot;hljs-type&quot;&gt;Future&lt;/span&gt;[&lt;span class=&quot;hljs-type&quot;&gt;Unit&lt;/span&gt;] = { &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;2&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;router&lt;/span&gt; =&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;Router&lt;/span&gt;.router(vertx) &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;3&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;route&lt;/span&gt; =&lt;/span&gt; router
-      .get(&lt;span class=&quot;hljs-string&quot;&gt;&quot;/hello&quot;&lt;/span&gt;)
-        .handler(_.response().end(&lt;span class=&quot;hljs-string&quot;&gt;&quot;world&quot;&lt;/span&gt;))
-
-    vertx &lt;span class=&quot;hljs-comment&quot;&gt;//&amp;lt;4&amp;gt;&lt;/span&gt;
-      .createHttpServer()
-      .requestHandler(router.accept)
-      .listenFuture(&lt;span class=&quot;hljs-number&quot;&gt;8666&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.0.0&quot;&lt;/span&gt;)  &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;5&amp;gt;&lt;/span&gt;
-        .map(_ =&amp;gt; ()) &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;6&amp;gt;&lt;/span&gt;
-  }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;ScalaVerticle&lt;/em&gt; is the base class for all Scala-Verticles. It provides all required methods to integrate with the Vert.x-runtime.&lt;/li&gt;
-&lt;li&gt;There are two ways to start a Verticle. Overriding &lt;em&gt;startFuture&lt;/em&gt;, like in this example, tells Vert.x to only consider the Verticle fully started after the returned &lt;em&gt;Future[Unit]&lt;/em&gt; has been successfully completed. Alternatively one can override &lt;em&gt;start&lt;/em&gt; and by that signal to Vert.x the instant availability of the Verticle.&lt;/li&gt;
-&lt;li&gt;This block creates a &lt;em&gt;Router&lt;/em&gt; for incoming HTTP-requests. It registers a handler to answer with “world” if a request to the URL “/hello” arrives. The class is coming from the &lt;a href=&quot;http://vertx.io/docs/vertx-web/scala/&quot;&gt;Vert.x-web-module&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Every Verticle has access to the Vert.x-instance. Here we use it to create a webserver and register our router to handle incoming requests.&lt;/li&gt;
-&lt;li&gt;We finally reached the reason why I use &lt;em&gt;startFuture&lt;/em&gt; in the first place. All operations in Vert.x are asynchronous. So starting the webserver most definitely means it takes some more time until it bound to the given port (8666 in this case). That’s why &lt;em&gt;listenFuture&lt;/em&gt; is used, which returns a &lt;em&gt;Future&lt;/em&gt; which in turn contains the actual instance of the webserver that just got started. So our Verticle will be ready to receive requests &lt;em&gt;after&lt;/em&gt; the returned &lt;em&gt;Future&lt;/em&gt; has been completed.&lt;/li&gt;
-&lt;li&gt;In most cases we can return the &lt;em&gt;Future&lt;/em&gt; directly. In this case the &lt;em&gt;Future&lt;/em&gt; returned by &lt;em&gt;listenFuture&lt;/em&gt; has the wrong type. We get a &lt;em&gt;Future[HttpServer]&lt;/em&gt; but we need a &lt;em&gt;Future[Unit]&lt;/em&gt; as you can see in the signature of &lt;em&gt;startFuture&lt;/em&gt;. This call takes care of mapping the given &lt;em&gt;Future[HttpServer]&lt;/em&gt; to the required return type.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
-&lt;p&gt;I use &lt;a href=&quot;http://www.scalatest.org/&quot;&gt;ScalaTest&lt;/a&gt; for all my testing needs. It comes with stellar support for asynchronous operations and is a perfect fit for testing Vert.x-applications.&lt;/p&gt;
-&lt;p&gt;The following &lt;em&gt;HttpVerticleSpec&lt;/em&gt; shows how to test an HTTP-API using only Vert.x-classes. Personally I prefer &lt;a href=&quot;http://rest-assured.io/&quot;&gt;REST-assured&lt;/a&gt; with its rich DSL. For this post I wanted to stick with Vert.x-API, so here we go.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs scala&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;package&lt;/span&gt; io.vertx.scala.sbt
-
-&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; org.scalatest.&lt;span class=&quot;hljs-type&quot;&gt;Matchers&lt;/span&gt;
-
-&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; scala.concurrent.&lt;span class=&quot;hljs-type&quot;&gt;Promise&lt;/span&gt;
-
-&lt;span class=&quot;hljs-class&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;HttpVerticleSpec&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;extends&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;VerticleTesting&lt;/span&gt;[&lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;HttpVerticle&lt;/span&gt;] &lt;span class=&quot;hljs-keyword&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;Matchers&lt;/span&gt; { &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;1&amp;gt;&lt;/span&gt;
-
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;HttpVerticle&quot;&lt;/span&gt; should &lt;span class=&quot;hljs-string&quot;&gt;&quot;bind to 8666 and answer with 'world'&quot;&lt;/span&gt; in { &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;2&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;promise&lt;/span&gt; =&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;Promise&lt;/span&gt;[&lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;] &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;3&amp;gt;&lt;/span&gt;
-
-    vertx.createHttpClient()  &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;4&amp;gt;&lt;/span&gt;
-      .getNow(&lt;span class=&quot;hljs-number&quot;&gt;8666&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;127.0.0.1&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;/hello&quot;&lt;/span&gt;,
-        r =&amp;gt; {
-          r.exceptionHandler(promise.failure)
-          r.bodyHandler(b =&amp;gt; promise.success(b.toString))
-        })
-
-    promise.future.map(res =&amp;gt; res should equal(&lt;span class=&quot;hljs-string&quot;&gt;&quot;world&quot;&lt;/span&gt;)) &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;5&amp;gt;&lt;/span&gt;
-  }
-
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;VerticleTesting&lt;/em&gt; is a base class for your tests included with the quickstart-project. It’s a small helper that takes care of deploying/un-deploying the Verticle to be tested and manages a Vert.x-instance. It additionally extends &lt;a href=&quot;http://www.scalatest.org/user_guide/async_testing&quot;&gt;AsyncFlatSpec&lt;/a&gt; so we can use Futures as test-return-types.&lt;/li&gt;
-&lt;li&gt;Isn’t it nice and readable?&lt;/li&gt;
-&lt;li&gt;The promise is required as the whole test will run async&lt;/li&gt;
-&lt;li&gt;We use the vertx-instance provided by &lt;em&gt;VerticleTesting&lt;/em&gt; to create a Netty-based HttpClient. We instruct the client to call the specified URL and to succeed the &lt;em&gt;Promise&lt;/em&gt; with the returned body.&lt;/li&gt;
-&lt;li&gt;This creates the actual assertion. After getting the &lt;em&gt;Future&lt;/em&gt; from the &lt;em&gt;Promise&lt;/em&gt; an assertion is created: &lt;em&gt;The Result should be equal to the String “world”&lt;/em&gt;. ScalaTest takes care of evaluating the returned &lt;em&gt;Future&lt;/em&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;That’s all you need to get started!&lt;/p&gt;
-&lt;h2 id=&quot;futures-in-vertx-lang-scala&quot;&gt;Futures in vertx-lang-scala&lt;/h2&gt;
-&lt;p&gt;Now for a more in depth topic I think is worth mentioning. vertx-lang-scala treats async operations the Scala-way which is a little different from what you might be used from Vert.x. For async operations like subscribing to the eventbus or deploying a Verticle you would call a method like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs scala&quot;&gt;vertx.deployVerticle(&lt;span class=&quot;hljs-string&quot;&gt;&quot;com.foo.OtherVerticle&quot;&lt;/span&gt;, res -&amp;gt; {
-  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (res.succeeded()) {
-    startFuture.complete();
-  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
-    startFuture.fail(res.cause());
-  }
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;em&gt;deployVerticle&lt;/em&gt; method takes the Verticle-name and a &lt;em&gt;Handler[AsyncResult]&lt;/em&gt; as its arguments. The &lt;em&gt;Handler[AsyncResult]&lt;/em&gt; is called after Vert.x tried deploying the Verticle. This style can also be used for Scala (which might ease the transition when coming from the Java-world) but their is a way more &lt;em&gt;scalaish&lt;/em&gt; way of doing this.&lt;/p&gt;
-&lt;p&gt;For every method taking a &lt;em&gt;Handler[AsyncResult]&lt;/em&gt; as its argument I create an alternative method using &lt;a href=&quot;http://docs.scala-lang.org/overviews/core/futures.html&quot;&gt;Scala-Futures&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs scala&quot;&gt;vertx.deployVerticleFuture(&lt;span class=&quot;hljs-string&quot;&gt;&quot;com.foo.OtherVerticle&quot;&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;1&amp;gt;&lt;/span&gt;
-  .onComplete{  &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;2&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;hljs-keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;Success&lt;/span&gt;(s) =&amp;gt; println(s&lt;span class=&quot;hljs-string&quot;&gt;&quot;Verticle id is: $s&quot;&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// &amp;lt;3&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;hljs-keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;Failure&lt;/span&gt;(t) =&amp;gt; t.printStackTrace()
-  }&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;A method providing a &lt;em&gt;Future&lt;/em&gt; based alternative gets &lt;em&gt;Future&lt;/em&gt; appended to its name and returns a &lt;em&gt;Future&lt;/em&gt; instead of taking a &lt;em&gt;Handler&lt;/em&gt; as its argument.&lt;/li&gt;
-&lt;li&gt;We are now free to use &lt;em&gt;Future&lt;/em&gt; the way we want. In this case onComplete is used to react on the completion.&lt;/li&gt;
-&lt;li&gt;Pattern matching on the result &lt;em&gt;&amp;lt;3&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I strongly recommend using this approach over using &lt;em&gt;Handlers&lt;/em&gt; as you won’t run into Callback-hell and you get all the goodies Scala provides for async operations.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block note&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;title&quot;&gt;Future and Promise both need a ExecutionContext &lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;content&quot;&gt; The &lt;a href=&quot;https://github.com/vert-x3/vertx-lang-scala/blob/master/vertx-lang-scala/src/main/scala/io/vertx/lang/scala/VertxExecutionContext.scala&quot;&gt;VertxExecutionContext&lt;/a&gt; is made implicitly available inside the &lt;a href=&quot;https://github.com/vert-x3/vertx-lang-scala/blob/master/vertx-lang-scala/src/main/scala/io/vertx/lang/scala/ScalaVerticle.scala&quot;&gt;ScalaVerticle&lt;/a&gt;. It makes sure all  operations are executed on the correct Event Loop. If you are using Vert.x without Verticles you have to provide it on your own.
-&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h2 id=&quot;using-the-console&quot;&gt;Using the console&lt;/h2&gt;
-&lt;p&gt;A great feature of sbt is the embedded, configurable Scala-console. The console available in the quickstart-project is pre-configured to provide a fresh Vert.x-instance and all required imports so you can start playing around with Vert.x in an instant.&lt;/p&gt;
-&lt;p&gt;Execute the following commands in the project-folder to deploy the &lt;em&gt;HttpVerticle&lt;/em&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;sbt
-&amp;gt; console
-scala&amp;gt; vertx.deployVerticle(nameForVerticle[HttpVerticle])
-scala&amp;gt; vertx.deploymentIDs&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After  executing this sequence you can now point your browser &lt;a href=&quot;http://localhost:8666/hello&quot;&gt;http://localhost:8666/hello&lt;/a&gt; to see our message. The last command issued shows the Ids under which Verticles have been deployed.&lt;/p&gt;
-&lt;p&gt;To get rid of the deployment you can now type &lt;code&gt;vertx.undeploy(vertx.deploymentIDs.head)&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;that-s-it-&quot;&gt;That’s it!&lt;/h2&gt;
-&lt;p&gt;This was a very quick introduction to our new Scala-stack. I hope to have given you a little taste of the Scala goodness now available with Vert.x. I recommend digging a little more through the quickstart to get a feeling for what’s there.
-In my next blog post I will explain some of the decisions I made and the obstacles I faced with the differences between Java and Scala /Hint: They are way bigger than I was aware of).&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Orion: Announcing Orion 14</title>
-	<guid isPermaLink="false">http://planetorion.org/news/?p=878</guid>
-	<link>http://planetorion.org/news/2017/03/announcing-orion-14/</link>
-	<description>&lt;p&gt;We are pleased to announce the fourteenth release of Orion, “Your IDE in the Cloud”. You can run it now on &lt;a href=&quot;https://orionhub.org&quot;&gt;OrionHub&lt;/a&gt; or &lt;a href=&quot;http://download.eclipse.org/orion/drops/R-14.2-201703170901/index.html&quot;&gt;download the server&lt;/a&gt; to run your own instance. Once again, thank you to all committers and contributors for your hard work this release.  There were 150 &lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&amp;amp;classification=ECD&amp;amp;list_id=16007571&amp;amp;product=Orion&amp;amp;query_format=advanced&amp;amp;resolution=FIXED&amp;amp;target_milestone=14.0&quot;&gt;bugs and enhancements&lt;/a&gt; fixed, across more than 380 commits from 14 authors!&lt;/p&gt;
-&lt;p&gt;What’s new in Orion 14?  This release was focussed on quality and ease of use – Orion 14 is more accessible (better colours and accessibility), easier to start coding in (the tools now automatically understand complex project configurations, so you don’t have to), and just more awesome in general.&lt;/p&gt;
-&lt;p&gt;We continued to improve the Node.js server (which is used on &lt;a href=&quot;http://orion.eclipse.org&quot;&gt;orion.eclipse.org&lt;/a&gt; or &lt;a href=&quot;https://wiki.eclipse.org/Orion/Node/Getting_started&quot;&gt;locally&lt;/a&gt;), and continued to improve our &lt;a href=&quot;https://wiki.eclipse.org/Orion/Documentation/Developer_Guide/Electron&quot;&gt;Electron app&lt;/a&gt;. Lastly, we began work in 14.0 to provide &lt;a href=&quot;https://git.eclipse.org/r/#/c/90145/&quot;&gt;collaborative&lt;/a&gt; development support and &lt;a href=&quot;https://git.eclipse.org/r/#/c/93161/&quot;&gt;debugging&lt;/a&gt; support directly in Orion! Stay tuned in Orion 15 for these features to officially land.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;</description>
-	<pubDate>Fri, 17 Mar 2017 18:56:01 +0000</pubDate>
-</item>
-<item>
-	<title>itemis: Debugging Xtext grammars – what to do when your language is ambiguous</title>
-	<guid isPermaLink="true">https://blogs.itemis.com/en/debugging-xtext-grammars-what-to-do-when-your-language-is-ambiguous</guid>
-	<link>https://blogs.itemis.com/en/debugging-xtext-grammars-what-to-do-when-your-language-is-ambiguous</link>
-	<description>&lt;p&gt;&lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;Xtext&lt;/a&gt; uses &lt;a href=&quot;http://www.antlr.org/&quot;&gt;ANTLR&lt;/a&gt; to generate a lexer and parser out of your grammar. Technically an &lt;a href=&quot;http://www.antlr.org/papers/LL-star-PLDI11.pdf&quot;&gt;LL(*)&lt;/a&gt; parser gets generated. This means it cannot deal with left recursion and has an infinite lookahead. You might know what that means, but to make it easier you could think about LL(*) parsers like this: A parser gets an ordered list of things (called tokens) to collect in a labyrinth. When it’s not clear which way to go it stands still and tries to figure out the ends to all directions. As soon as it is obvious where to go, it continues walking and collecting.&lt;/p&gt; 
-&lt;p&gt;There is no way back – so decisions should be correct. Sometimes this is not the case and the parser can't make a clear decision. In this situation it gets tricky to understand where the problem is and how to resolve it. Mostly shown errors and warnings are not that meaningful.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;debgging-xtext-grammars.jpg&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/debgging-xtext-grammars.jpg?t=1490792771168&amp;amp;width=724&amp;amp;name=debgging-xtext-grammars.jpg&quot; style=&quot;width: 724px;&quot; title=&quot;debgging-xtext-grammars.jpg&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;What do you normally do when the Xtext workflow reports warnings or errors while the parser is being generated? Obviously errors can’t be ignored since the parser will not be generated and the workflow fails – but what about warnings? Do you try to solve them by staring at the grammar and try to think like a parser? Or do you ignore them because it seems to work? Really?&lt;/p&gt; 
-&lt;p&gt;In projects we have seen people dealing with such problems in various ways. Ignoring warnings is not a good idea, since ANTLR switches off alternatives and you do not know which one. We have seen people consequently ignoring such warnings, because they cannot figure out the real cause and things got complex. However ignoring those warnings should not be an option.&lt;/p&gt; 
-&lt;p&gt;I have seen that a large group of Xtext users do not know about &lt;a href=&quot;http://www.antlr3.org/works/&quot;&gt;ANTLRWorks&lt;/a&gt; or that it can help here. So let’s make two trivial examples to see how to use the tool with Xtext.&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;Warnings&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;Let’s make a trivial example where it is really obvious what the problem is:&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;example-grammar-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/examplegrammar1.png?t=1490792771168&amp;amp;width=724&amp;amp;name=examplegrammar1.png&quot; style=&quot;width: 724px;&quot; title=&quot;example-grammar-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;We have two parser rules (Element1 and Element2) that look identically except that there are different parts optional. During the workflow runs it reports the following warnings:&lt;/p&gt; 
-&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;warning(200): ../com.itemis.blog.antlrworks.dsl/src-gen/com/itemis/blog/antlrworks/parser/antlr/internal/InternalDsl.g:114:2: Decision can match input such as &quot;'element' 'id' RULE_ID 'int' RULE_INT&quot; using multiple alternatives: 1, 2&lt;/span&gt;&lt;/p&gt; 
-&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;As a result, alternative(s) 2 were disabled for that input&lt;/span&gt;&lt;/p&gt; 
-&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;warning(200): ../com.itemis.blog.antlrworks.dsl.ide/src-gen/com/itemis/blog/antlrworks/ide/contentassist/antlr/internal/InternalDsl.g:156:1: Decision can match input such as &quot;'element' 'id' RULE_ID 'int' RULE_INT&quot; using multiple alternatives: 1, 2&lt;/span&gt; &lt;/p&gt; 
-&lt;p&gt;In this case the parser gets generated, but it tells us that there were different alternatives for the same input and that ANTLR decided to disable 2 of them. It does not tell us which once. Let’s find out what the cause is.&lt;/p&gt; 
-&lt;p&gt;ANTLRWorks comes as an executable jar – running it should not be a problem as long as java is installed. If you want to open a grammar it expects an &lt;em&gt;*.g&lt;/em&gt; file. Xtext should have generated one in the &lt;em&gt;src-gen&lt;/em&gt; folder. In our example there is a &lt;em&gt;.g&lt;/em&gt; file located here: &lt;em&gt;com.itemis.blog.antlrworks.dsl/src-gen/com/itemis/blog/antlrworks/parser/antlr/internal/InternalDsl.g&lt;/em&gt;&lt;/p&gt; 
-&lt;p&gt;The grammar looks a bit strange and there is a lot of Java stuff in the grammar. ANTLRWorks will fail to compile the grammar… damn.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Error-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/Error.png?t=1490792771168&amp;amp;width=495&amp;amp;name=Error.png&quot; style=&quot;width: 495px; display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;Error-debugging-xtext-grammars.png&quot; width=&quot;495&quot; /&gt;Ok, the generated ANTLR grammar cannot be directly used in ANTLRWorks since it is modified to the needs of Xtext. To generate a so-called debugable grammar you need to modify the workflow a bit like this.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;workflow-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/workflow.png?t=1490792771168&amp;amp;width=724&amp;amp;name=workflow.png&quot; style=&quot;width: 724px;&quot; title=&quot;workflow-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;Now you’ll find a &lt;em&gt;.g&lt;/em&gt; file in &lt;em&gt;src-gen&lt;/em&gt; that carries the name &lt;em&gt;DebugInternal*.g. &lt;/em&gt;This file can be easily used with ANTLRWorks.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Path-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/Path.png?t=1490792771168&amp;amp;width=724&amp;amp;name=Path.png&quot; style=&quot;width: 724px;&quot; title=&quot;Path-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;After you have started ANTLRWorks click on File-&amp;gt;Open and select the DebugInternal*.g file.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;File-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/File.png?t=1490792771168&amp;amp;width=724&amp;amp;name=File.png&quot; style=&quot;width: 724px;&quot; title=&quot;File-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;ANTLRWorks will open the grammar and you’ll see the different rules. So far no warnings are shown. To let the tool do it’s job click on debug – the button looks like a bug. After doing that the &lt;em&gt;ruleElement&lt;/em&gt; is marked read. By clicking on the rule you’ll see the problem that caused the warnings and the different alternatives. To really see what the disabled alternatives are you could enable them as shown in the next picture. The read arrows will show the disabled alternatives.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;ANTLRWorks-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/ANTLRWorks2.png?t=1490792771168&amp;amp;width=724&amp;amp;name=ANTLRWorks2.png&quot; style=&quot;width: 724px;&quot; title=&quot;ANTLRWorks-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;As already said this is a very trivial example and the tool just points out what we already know. In typical projects we have far more complex scenarios where it is nearly impossible to get the cause of a warning without ANTLRWorks. Especially when a lot of parts are optional it gets tricky. To really understand what the parser does there is the possibility to debug the grammar with a given input and see how the parsetree is constructed. Clicking on debug once more brings up a window to define the input.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Input-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/Input1.png?t=1490792771168&amp;amp;width=724&amp;amp;name=Input1.png&quot; style=&quot;width: 724px;&quot; title=&quot;Input-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;Debugging in ANTLRWorks works similar like you know it from Eclipse and you can step forward and backward. At the end the parsetree will show that the parser went into the rule “Element1” instead of “Element2”. From a grammar point of view both rules would be valid but ANTLR switched of the alternative. Otherwise no clear decision could be made.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/Debug1.png?t=1490792771168&amp;amp;width=724&amp;amp;name=Debug1.png&quot; style=&quot;width: 724px;&quot; title=&quot;debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;If we add a second line as an input for the debugger and leave out the &lt;em&gt;intValue&lt;/em&gt; the parsetree looks like this:&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Input-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/Input2.png?t=1490792771168&amp;amp;width=724&amp;amp;name=Input2.png&quot; style=&quot;width: 724px;&quot; title=&quot;Input-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/debug2.png?t=1490792771168&amp;amp;width=806&amp;amp;name=debug2.png&quot; style=&quot;width: 806px;&quot; title=&quot;debugging-xtext-grammars.png&quot; width=&quot;806&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;As the &lt;em&gt;intValue&lt;/em&gt; is mandatory in the &lt;em&gt;ruleElement1&lt;/em&gt; the parser will go into &lt;em&gt;ruleElement2&lt;/em&gt; for the second entry. This is the only case where “Element2” is picked. In this trivial example it’s not that hard to guess what the parser will do. In more complex example this debugging feature will really bring a big benefit to solve your ambiguities. &lt;/p&gt; 
-&lt;h2&gt;&lt;strong style=&quot;background-color: transparent;&quot;&gt;Errors&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;What about errors? Do you know what to do when the workflow reports that a rule has a non-LL(*) decision? What the hell is left-refactoring, syntactic predicates and why should I use backtracking – should I really? We’ll handle that in another blogpost, but for now let’s have a look at a simple language that has some expressions.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;grammar-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/grammar2.png?t=1490792771168&amp;amp;width=724&amp;amp;name=grammar2.png&quot; style=&quot;width: 724px;&quot; title=&quot;grammar-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt; &lt;/p&gt; 
-&lt;p&gt;When we try to run the Xtext workflow the generator will report the following error:&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt; error(211): ../com.itemis.blog.antlrworks.dsl/src-gen/com/itemis/blog/antlrworks/parser/antlr/internal/InternalDsl.g:114:2: [fatal] rule ruleExpression has non-LL(*) decision due to recursive rule invocations reachable from alts 1,3. Resolve by left-factoring or using syntactic predicates or using backtrack=true option.&lt;/span&gt; &lt;/p&gt; 
-&lt;p&gt;Various exceptions are show below the error, but Xtext will generate the &lt;em&gt;.g &lt;/em&gt;file anyway – so there is a chance to find out what the problem is. You might already know what’s wrong, but let’s try to use ANTLRWorks. The compiler in ANTLRWorks will show the very same error, but after ignoring that the rule element is marked red. The different alternatives are marked red.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;ANTLRWorks-Error-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/ANTLRWorksError.png?t=1490792771168&amp;amp;width=724&amp;amp;name=ANTLRWorksError.png&quot; style=&quot;width: 724px;&quot; title=&quot;ANTLRWorks-Error-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;br /&gt; In this case left-recursion is not our problem. ANTLRWorks shows us, that &lt;em&gt;ruleBlockExpression&lt;/em&gt; and &lt;em&gt;ruleListLiteral&lt;/em&gt; are the cause.&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;rule1.png&quot; height=&quot;67&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/rule1.png?t=1490792771168&amp;amp;width=724&amp;amp;height=67&amp;amp;name=rule1.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;rule-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/rule2.png?t=1490792771168&amp;amp;width=724&amp;amp;name=rule2.png&quot; style=&quot;width: 724px;&quot; title=&quot;rule-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;After having a closer look it is obvious that the syntax is equal if there is only one expression inside – that makes our grammar ambiguous. Do we really want a &lt;em&gt;ListLiteral&lt;/em&gt; to exist on the same level as a &lt;em&gt;BlockExpression&lt;/em&gt;? Do we really want a &lt;em&gt;BlockExpression&lt;/em&gt; contain various other &lt;em&gt;BlockExpressions&lt;/em&gt;?&lt;/p&gt; 
-&lt;p&gt;After considering these questions a refactored grammar looks like this:&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;refactored-grammar-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/refactoredgrammar.png?t=1490792771168&amp;amp;width=724&amp;amp;name=refactoredgrammar.png&quot; style=&quot;width: 724px;&quot; title=&quot;refactored-grammar-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;After doing that the workflow will run through and we are good to have a second look in ANTLRWorks to see the parsetree for a simple expression:&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;input-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/input3.png?t=1490792771168&amp;amp;width=724&amp;amp;name=input3.png&quot; style=&quot;width: 724px;&quot; title=&quot;input-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;debug-Expression-debugging-xtext-grammars.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/ANTLRWorks/debugExpression.png?t=1490792771168&amp;amp;width=724&amp;amp;name=debugExpression.png&quot; style=&quot;width: 724px;&quot; title=&quot;debug-Expression-debugging-xtext-grammars.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;These examples are very trivial to make it obvious where the problem is. The intension was to let you know how to use ANTLRWorks with Xtext. Don't ignore warnings anymore – you might not know the implications. The parsetree might look different as you though.&lt;/p&gt; 
-&lt;p&gt;Stay tuned for another post about syntactic predicates, left-recursion / left-refactoring and why backtracking is not an option. And if you've got any questions regarding Xtext – don't hesitate to contact us!&lt;/p&gt; 
-&lt;p&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=78567f96-0e8e-4c0b-8822-523822026eba&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;eid=&amp;amp;ic=&quot;&gt; &lt;img align=&quot;middle&quot; alt=&quot;Contact the  itemis Xtext team&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/78567f96-0e8e-4c0b-8822-523822026eba.png&quot; /&gt; &lt;/a&gt;&lt;/p&gt;  
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fdebugging-xtext-grammars-what-to-do-when-your-language-is-ambiguous&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 17 Mar 2017 15:00:04 +0000</pubDate>
-	<author>schill@itemis.com (Holger Schill)</author>
-</item>
-<item>
-	<title>Paolo Patierno: Vert.x and IoT in Rome : what a meetup !</title>
-	<guid isPermaLink="false">http://paolopatierno.wordpress.com/?p=4147</guid>
-	<link>https://paolopatierno.wordpress.com/2017/03/17/vert-x-and-iot-in-rome-what-a-meetup/</link>
-	<description>&lt;p style=&quot;text-align: justify;&quot;&gt;Yesterday I had a great day in Rome for a meetup hosted by &lt;a href=&quot;https://www.meetup.com/Meet-cast/&quot; target=&quot;_blank&quot;&gt;Meet{cast}&lt;/a&gt; (powered by &lt;a href=&quot;http://dotnetpodcast.com/&quot; target=&quot;_blank&quot;&gt;dotnetpodcast&lt;/a&gt; community) and &lt;a href=&quot;http://www.codemotionworld.com/&quot; target=&quot;_blank&quot;&gt;Codemotion&lt;/a&gt;, speaking about &lt;a href=&quot;http://vertx.io/&quot; target=&quot;_blank&quot;&gt;Vert.x&lt;/a&gt; and how we can use it for developing “end to end” Internet of Things solutions.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17352445_10208955590111131_6229030843024604532_n&quot; class=&quot;alignnone size-full wp-image-4159&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17352445_10208955590111131_6229030843024604532_n.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17352567_10208955588791098_766816304298598626_n&quot; class=&quot;alignnone size-full wp-image-4161&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17352567_10208955588791098_766816304298598626_n.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;I started with an high level introduction on Vert.x and how it works, its internals and its main usage then I moved to dig into some specific components useful for developing IoT applications like the MQTT server, AMQP Proton and Kafka client.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17342690_10208955588751097_8818320599257580571_n&quot; class=&quot;alignnone size-full wp-image-4165&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17342690_10208955588751097_8818320599257580571_n.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17352571_10208955588951102_2851165399929439718_n&quot; class=&quot;alignnone size-full wp-image-4168&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17352571_10208955588951102_2851165399929439718_n.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;It was interesting to know that even in Italy a lot of developers and companies are moving to use Vert.x for developing microservices based solutions. A lot of interesting questions came out … people seem to like it !&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Finally, in order to prove the Vert.x usage in enterprise applications I showed two real use cases that today work thanks to the above components : &lt;a href=&quot;https://www.eclipse.org/hono/&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt; and &lt;a href=&quot;https://github.com/EnMasseProject/enmasse&quot; target=&quot;_blank&quot;&gt;EnMasse&lt;/a&gt;. I had few time to explain better how EnMasse works in details, the Qpid Dispatch Router component in particular and for this reason I hope to have a future meetup on that, the AMQP router concept is quite new today ! In any case, knowing that such a scalable platform is based (even) on Vert.x was a great news for the attendees.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17264802_10208955590191133_8923182437405273553_n&quot; class=&quot;alignnone size-full wp-image-4170&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17264802_10208955590191133_8923182437405273553_n.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;If you are interested to know more about that, you can take a look to the &lt;a href=&quot;https://www.slideshare.net/paolopat/reactive-internet-of-thins-the-vertx-way&quot; target=&quot;_blank&quot;&gt;slides&lt;/a&gt; and the &lt;a href=&quot;https://github.com/ppatierno/reactive-iot-vertx&quot; target=&quot;_blank&quot;&gt;demo&lt;/a&gt;. Following the link to the &lt;a href=&quot;https://channel9.msdn.com/Series/Meetcast/Reactive-Internet-of-Things--the-Vertx-way&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; of the meetup but only in Italian (my apologies for my English friends :-)). Hope you’ll enjoy the content !&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Of course, I had some networking with attendees after the meetup and … with some beer &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img alt=&quot;17310150_1421561734583219_8414988688301135801_o&quot; class=&quot;alignnone size-full wp-image-4191&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/03/17310150_1421561734583219_8414988688301135801_o.jpg?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/paolopatierno.wordpress.com/4147/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/paolopatierno.wordpress.com/4147/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=paolopatierno.wordpress.com&amp;amp;blog=15467422&amp;amp;post=4147&amp;amp;subd=paolopatierno&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;/p&gt;</description>
-	<pubDate>Fri, 17 Mar 2017 10:45:11 +0000</pubDate>
 </item>
 
 </channel>

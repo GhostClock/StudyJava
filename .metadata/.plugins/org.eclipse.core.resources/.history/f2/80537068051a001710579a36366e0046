@@ -1,0 +1,18 @@
+/**
+ * 加深对事件处理机制的理解
+ * 1.通过上下左右键，来控制小球的位置
+ * 
+ * */
+
+package com.test03;
+
+import javax.swing.JFrame;
+
+public class Demo01 extends JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
