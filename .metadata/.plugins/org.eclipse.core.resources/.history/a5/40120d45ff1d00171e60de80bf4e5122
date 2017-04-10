@@ -1,0 +1,33 @@
+/**
+ * 实现Runable接口的方式来编写多线程
+ * 
+ * */
+
+package com.test01;
+
+public class Demo02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class Dog implements Runnable{
+	int count = 0;
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		while (true) {
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			System.out.println("hello World " + count);
+		}
+	}
+	
+}

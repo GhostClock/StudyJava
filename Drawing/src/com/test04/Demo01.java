@@ -1,14 +1,16 @@
+/**
+ * 事件编写的步骤
+ * 1.编写事件处理类(事件监听者)
+ * 2.根据需求给处理类实现监听接口
+ * 3.在事件处理类中重写起事件处理的函数
+ * 4.在事件源中指定该事件的监听的响应者是谁,即注册监听 
+ * 
+ * */
+
 package com.test04;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
-
+import java.awt.event.*;
 import javax.swing.*;
 
 public class Demo01 extends JFrame {

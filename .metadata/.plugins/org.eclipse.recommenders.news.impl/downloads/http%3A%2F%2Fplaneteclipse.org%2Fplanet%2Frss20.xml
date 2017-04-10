@@ -8,6 +8,224 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Sebastian Zarnekow: Moving on</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-6255758224607466565.post-9069237360198255066</guid>
+	<link>http://zarnekow.blogspot.com/2017/04/moving-on.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-aef576b6-57ae-b6b1-d444-9d6b8d0ef9f9&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 11pt; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;After an exciting journey of 15 months as the Director Engineering at SMACC, I decided to move on. It was not an easy decision to make, though it’s still one that I wanted to make. In the past year I made many new friends, met great people, and had the chance to work in a super nice team. It was a great time with plenty of challenges, important learnings and great fun. But I also realized that I was missing the time as a technical consultant. Language engineering always was and still is a strong passion of mine. So I figured it’s about time to move on and refocus. Xtext, Eclipse, Language oriented programming - exciting times ahead. Keeping you posted ...&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 10 Apr 2017 11:46:13 +0000</pubDate>
+	<author>noreply@blogger.com (Sebastian Zarnekow)</author>
+</item>
+<item>
+	<title>Mike Milinkovich: EPLv2: A New Version of the Eclipse Public License</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1239</guid>
+	<link>https://mmilinkov.wordpress.com/2017/04/07/eplv2-a-new-version-of-the-eclipse-public-license/</link>
+	<description>&lt;p&gt;The Eclipse Foundation is in the process of revising the &lt;a href=&quot;https://www.eclipse.org/org/documents/epl-v10.php&quot; target=&quot;_blank&quot;&gt;Eclipse Public License&lt;/a&gt; (EPL). Refreshing a popular open source license is a big job, and one that we have been chipping away at for over a year.&lt;/p&gt;
+&lt;p&gt;The EPL and its predecessor the &lt;a href=&quot;https://opensource.org/licenses/CPL-1.0&quot; target=&quot;_blank&quot;&gt;Common Public License&lt;/a&gt; have been around for about 16 years now. For a full presentation on the changes we are considering and their motivation, you can check out our &lt;a href=&quot;https://www.slideshare.net/MikeMilinkovich/eplv2-a-new-version-of-the-eclipse-public-license&quot; target=&quot;_blank&quot;&gt;presentation&lt;/a&gt;, or the &lt;a href=&quot;https://youtu.be/exhk6sS5_0I&quot; target=&quot;_blank&quot;&gt;video on YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please get involved. Just as importantly, if you are a developer involved in the Eclipse community and ecosystem, encourage your colleagues in the legal department to get involved. The discussions are happening on the &lt;a href=&quot;http://dev.eclipse.org/mhonarc/lists/epl-discuss/&quot; target=&quot;_blank&quot;&gt;epl-discuss@eclipse.org&lt;/a&gt; mail list (&lt;a href=&quot;https://dev.eclipse.org/mailman/listinfo/epl-discuss&quot; target=&quot;_blank&quot;&gt;subscription required&lt;/a&gt;). The most recent public drafts of the EPLv2 can be found &lt;a href=&quot;http://dev.eclipse.org/mhonarc/lists/epl-discuss/msg00116.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://mmilinkov.wordpress.com/category/foundation/&quot;&gt;Foundation&lt;/a&gt;, &lt;a href=&quot;https://mmilinkov.wordpress.com/category/open-source/&quot;&gt;Open Source&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/mmilinkov.wordpress.com/1239/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/mmilinkov.wordpress.com/1239/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=mmilinkov.wordpress.com&amp;amp;blog=19461799&amp;amp;post=1239&amp;amp;subd=mmilinkov&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 07 Apr 2017 18:17:35 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: JSON Forms – Day 5 – Layouts</title>
+	<guid isPermaLink="false">http://eclipsesource.com/blogs/?p=28066</guid>
+	<link>http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;JSON Forms is a framework for efficiently building form-based web UIs. These UIs, which are usually embedded in a business application, allow end users to enter, modify, and view data. JSON Forms eliminates the need to write HTML templates and Javascript for data binding by hand. It allows you to create customizable forms by leveraging the capabilities of JSON and &lt;/span&gt;&lt;a href=&quot;http://json-schema.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;JSON schema&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and providing a simple and declarative way of describing forms. Forms are then rendered with a UI framework, currently one that is based on AngularJS. If you would like to know more about JSON Forms, the &lt;/span&gt;&lt;a href=&quot;http://jsonforms.io&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;JSON Forms homepage&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is a good starting point.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In this blog series, we would like to introduce the framework based on a real-world example application, a task tracker called “Make It happen”. On &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/12/21/json-forms-make-it-happen-blog-series-pilot/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;day 1&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/12/27/json-forms-day-2-introducing-the-ui-schema/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;day 2&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, we described the overall requirements as well as created a fully working form for the entity “Task”. On &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/01/11/json-forms-day-3-extending-the-ui-schema/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;day 3&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; we showed how to extend the form with new attributes and controls. On &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/02/09/json-forms-day-4-visibility-rules/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;day 4&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; we introduced rule-based visibility of controls, based on the data, the user has entered.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you would like to follow this blog series please &lt;/span&gt;&lt;a href=&quot;https://twitter.com/jsonforms&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;follow us on twitter&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. This is where we will announce every new blog post regarding JSON Forms. After the first 4 days, the current form looks like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image10.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28069&quot; height=&quot;253&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image10-300x253.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;While the form is already fully functional, including data binding, validation, and even rule-based validation, the layout is definitely not optimal. Basically, we just see a vertical list of all controls. Therefore, in this blog post, we want to refine the layout using the JSON Forms layout elements.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So far, we have embedded all controls into one root “VerticalLayout”. This type of layout always arranges its children vertically. However, JSON Forms also supports different layout types, e.g. “HorizontalLayout”. Of course, those layouts can be combined by embedding one layout element into another. For example to achieve a two column layout you can use a “HorizontalLayout” element which contains two “VerticalLayout” elements.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In our current form, we could save some vertical space by putting the “dueDate” attribute in one shared “HorizontalLayout” with the “rating” property. The same applies for “recurrence” and “recurrence_interval”. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The resulting UI schema looks like this:&lt;/span&gt;&lt;/p&gt;
+ &lt;pre lang=&quot;JSON&quot;&gt;{
+  &quot;type&quot;: &quot;VerticalLayout&quot;,
+  &quot;elements&quot;: [
+    {
+      &quot;type&quot;: &quot;Control&quot;,
+      &quot;label&quot;: false,
+      &quot;scope&quot;: {
+        &quot;$ref&quot;: &quot;#/properties/done&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;Control&quot;,
+      &quot;scope&quot;: {
+        &quot;$ref&quot;: &quot;#/properties/name&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;HorizontalLayout&quot;,
+      &quot;elements&quot;: [
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/due_date&quot;
+          }
+        },
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/rating&quot;
+          }
+        }
+      ]
+    },
+    {
+      &quot;type&quot;: &quot;Control&quot;,
+      &quot;scope&quot;: {
+        &quot;$ref&quot;: &quot;#/properties/description&quot;
+      },
+      &quot;options&quot;: {
+          &quot;multi&quot;:true
+      }
+    },
+    {
+      &quot;type&quot;: &quot;HorizontalLayout&quot;,
+      &quot;elements&quot;: [
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/recurrence&quot;
+          }
+        },
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/recurrence_interval&quot;
+          },
+          &quot;rule&quot;: {
+              &quot;effect&quot;: &quot;HIDE&quot;,
+              &quot;condition&quot;: {
+                  &quot;scope&quot;: {
+                      &quot;$ref&quot;: &quot;#/properties/recurrence&quot;
+                  },
+                  &quot;expectedValue&quot;: &quot;Never&quot;
+              }
+          }
+        }
+      ]
+    }
+  ]
+}
+&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So by simply moving things around a bit in the UI schema, we can produce the following layout:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image12.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28071&quot; height=&quot;188&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image12-300x188.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As you can imagine, it is pretty easy to produce more advanced layouts by just combining layout elements.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please note, that EMF Forms supports more layout types than horizontal and vertical. As an example, you could use the element “Categorization” to separate controls into several sub categories. The following screenshot shows a rendered categorization element, where the attributes of a task are split into two tabs. Please note that the horizontal layout described before is now nested into the categorization.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image05.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28072&quot; height=&quot;145&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image05-300x145.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image14.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28073&quot; height=&quot;119&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image14-300x119.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The UI Schema for this layout is as follows:&lt;/span&gt;&lt;/p&gt;
+ &lt;pre lang=&quot;JSON&quot;&gt;{
+  &quot;type&quot;: &quot;Categorization&quot;,
+  &quot;elements&quot;: [
+    {
+      &quot;type&quot;: &quot;Category&quot;,
+      &quot;label&quot;: &quot;Main&quot;,
+      &quot;elements&quot;: [
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;label&quot;: false,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/done&quot;
+          }
+        },
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/name&quot;
+          }
+        },
+        {
+          &quot;type&quot;: &quot;Control&quot;,
+          &quot;scope&quot;: {
+            &quot;$ref&quot;: &quot;#/properties/description&quot;
+          },
+          &quot;options&quot;: {
+              &quot;multi&quot;:true
+          }
+        }
+      ]
+    },
+    {
+      &quot;type&quot;: &quot;Category&quot;,
+      &quot;label&quot;: &quot;Additional&quot;,
+      &quot;elements&quot;: [
+        {
+          &quot;type&quot;: &quot;HorizontalLayout&quot;,
+          &quot;elements&quot;: [
+            {
+              &quot;type&quot;: &quot;Control&quot;,
+              &quot;scope&quot;: {
+                &quot;$ref&quot;: &quot;#/properties/due_date&quot;
+              }
+            },
+            {
+              &quot;type&quot;: &quot;Control&quot;,
+              &quot;scope&quot;: {
+                &quot;$ref&quot;: &quot;#/properties/rating&quot;
+              }
+            }
+          ]
+        },
+        {
+          &quot;type&quot;: &quot;HorizontalLayout&quot;,
+          &quot;elements&quot;: [
+            {
+              &quot;type&quot;: &quot;Control&quot;,
+              &quot;scope&quot;: {
+                &quot;$ref&quot;: &quot;#/properties/recurrence&quot;
+              }
+            },
+            {
+              &quot;type&quot;: &quot;Control&quot;,
+              &quot;scope&quot;: {
+                &quot;$ref&quot;: &quot;#/properties/recurrence_interval&quot;
+              },
+              &quot;rule&quot;: {
+                  &quot;effect&quot;: &quot;HIDE&quot;,
+                  &quot;condition&quot;: {
+                      &quot;scope&quot;: {
+                          &quot;$ref&quot;: &quot;#/properties/recurrence&quot;
+                      },
+                      &quot;expectedValue&quot;: &quot;Never&quot;
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please refer to &lt;/span&gt;&lt;a href=&quot;http://jsonforms.io/#/docs/uischema&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for an overview of the available layout elements in JSON Forms.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As you might have noticed, the layout types of JSON Forms are a little different from what you know from HTML or any widget toolkit. As an example, there is no element called “tabbed layout”, but rather, it is called “Categorization”. The reason for this is that the UI Schema of JSON Forms is focussed on describing the structure of the layout rather than the actual rendering. The concrete visualization is the responsibility of the rendering component. This is analogous to the combination of HTML and CSS and allows for flexibility in rendering. As an example, the categorization element described above basically only specifies, that a form is split into several categories. The default renderer will translate this information into tabs. However, you could also implement an alternative renderer, which would display categories slightly differently, e.g. like this:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image04.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28074&quot; height=&quot;133&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image04-300x133.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image11.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-medium wp-image-28075&quot; height=&quot;108&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/uploads/2017/04/image11-300x108.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Talking about alternative renderers: This is a core feature of JSON Forms! So far, we have just used the default renderer for controls as well as for layouts. In the next post, we will describe how to implement and plugin custom renderers in order to adapt the way in which a form is rendered. So stay tuned!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are interested in trying out JSON Forms, please refer to the &lt;/span&gt;&lt;a href=&quot;http://github.eclipsesource.com/jsonforms/#/docs/firstform&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Getting-Started tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. This explains how to set up JSON Forms in your own project and how you can try out the first few steps yourself. If you would like to follow this blog series, please &lt;/span&gt;&lt;a href=&quot;https://twitter.com/jsonforms&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;follow us on twitter&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. We will announce every new blog post on JSON Forms there. If you need support for JSON Forms or if you are interested in new features, please feel free to &lt;/span&gt;&lt;a href=&quot;http://github.eclipsesource.com/jsonforms/#/support&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;contact us&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We hope to see you soon for the next day!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;List of all available days to date:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/12/21/json-forms-make-it-happen-blog-series-pilot/&quot;&gt;Day 0 and 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2016/12/27/json-forms-day-2-introducing-the-ui-schema/&quot;&gt;Day 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/01/11/json-forms-day-3-extending-the-ui-schema/&quot;&gt;Day 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/02/09/json-forms-day-4-visibility-rules/&quot;&gt;Day 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/&quot;&gt;Day 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=JSON+Forms+%26%238211%3B+Day+5+%26%238211%3B+Layouts&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/&amp;amp;t=JSON+Forms+%26%238211%3B+Day+5+%26%238211%3B+Layouts&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/04/07/json-forms-day-5-layouts/#respond&quot;&gt;Leave a Comment&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/angularjs/&quot; title=&quot;AngularJS Tag&quot;&gt;AngularJS&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/forms/&quot; title=&quot;Forms Tag&quot;&gt;Forms&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/json/&quot; title=&quot;JSON Tag&quot;&gt;JSON&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/json-schema/&quot; title=&quot;JSON Schema Tag&quot;&gt;JSON Schema&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/angularjs/&quot; title=&quot;AngularJS Tag&quot;&gt;AngularJS&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/forms/&quot; title=&quot;Forms Tag&quot;&gt;Forms&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/json/&quot; title=&quot;JSON Tag&quot;&gt;JSON&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/json-schema/&quot; title=&quot;JSON Schema Tag&quot;&gt;JSON Schema&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 07 Apr 2017 06:55:45 +0000</pubDate>
+</item>
+<item>
+	<title>Ian Skerrett: What is Eclipse?</title>
+	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=4063</guid>
+	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/c1JDIou00kE/</link>
+	<description>&lt;p&gt;Last week we &lt;a href=&quot;https://www.surveymonkey.com/r/EclipseFdn&quot;&gt;launched a survey&lt;/a&gt; to solicit opinions about open source foundations and the general Eclipse community. A key thing we hope to accomplish with this survey is to gauge how people perceive the Eclipse brand? The Eclipse community has substantially grown and change over the last number of years, so we really want to know how people answer the question ‘What is Eclipse?’&lt;/p&gt;
+&lt;p&gt;The survey has 16 questions and should take less than 5 minutes to complete. It would great to have as many Eclipse community members as possible to answer ‘&lt;a href=&quot;https://www.surveymonkey.com/r/EclipseFdn&quot;&gt;What is Eclipse?&lt;/a&gt;‘.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Eclipse Survey 1&quot; class=&quot;alignnone size-full wp-image-4071&quot; src=&quot;https://ianskerrett.files.wordpress.com/2017/04/eclipse-survey-1.png?w=450&quot; /&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/ianskerrett.wordpress.com/4063/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/ianskerrett.wordpress.com/4063/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ianskerrett.wordpress.com&amp;amp;blog=405862&amp;amp;post=4063&amp;amp;subd=ianskerrett&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/c1JDIou00kE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 05 Apr 2017 17:19:53 +0000</pubDate>
+</item>
+<item>
 	<title>JBoss Tools Team: JBoss Tools 4.4.4.AM2 for Eclipse Neon.3</title>
 	<guid isPermaLink="true">https://tools.jboss.org/blog/4.4.4.am2-for-neon.3.html</guid>
 	<link>https://tools.jboss.org/blog/4.4.4.am2-for-neon.3.html</link>
@@ -637,224 +855,6 @@ public class MediaWikiToAdocExample {
 &lt;/ul&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?source=webclient&amp;amp;text=EMF+Forms+and+EMF+Client+Platform+1.12.0+released%21&amp;amp;via=eclipsesource&amp;amp;url=http://eclipsesource.com/blogs/2017/03/24/emf-forms-and-emf-client-platform-1-12-0-released/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot;&gt;&lt;img alt=&quot;Twitter&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/twitter.png&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/share?url=http://eclipsesource.com/blogs/2017/03/24/emf-forms-and-emf-client-platform-1-12-0-released/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;+1&quot;&gt;&lt;img alt=&quot;Google+&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/google_plus.png&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://www.linkedin.com/cws/share?url=http://eclipsesource.com/blogs/2017/03/24/emf-forms-and-emf-client-platform-1-12-0-released/&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Share on LinkedIn&quot;&gt;&lt;img alt=&quot;LinkedIn&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/linkedin.png&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=http://eclipsesource.com/blogs/2017/03/24/emf-forms-and-emf-client-platform-1-12-0-released/&amp;amp;t=EMF+Forms+and+EMF+Client+Platform+1.12.0+released%21&quot; style=&quot;margin-right: 5px;&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;img alt=&quot;Facebook&quot; src=&quot;http://eclipsesource.com/blogs/wp-content/plugins/custom-about-author/images/social_media/facebook.png&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/2017/03/24/emf-forms-and-emf-client-platform-1-12-0-released/#respond&quot;&gt;Leave a Comment&lt;/a&gt;. Tagged with &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emfcp/&quot; title=&quot;emfcp Tag&quot;&gt;emfcp&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emfforms/&quot; title=&quot;emfforms Tag&quot;&gt;emfforms&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/eclipse/&quot; title=&quot;eclipse Tag&quot;&gt;eclipse&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emf/&quot; title=&quot;emf Tag&quot;&gt;emf&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emfcp/&quot; title=&quot;emfcp Tag&quot;&gt;emfcp&lt;/a&gt;, &lt;a href=&quot;http://eclipsesource.com/blogs/tag/emfforms/&quot; title=&quot;emfforms Tag&quot;&gt;emfforms&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</description>
 	<pubDate>Fri, 24 Mar 2017 15:04:20 +0000</pubDate>
-</item>
-<item>
-	<title>PapyrusUML: Papyrus-RT 0.9 is available!</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=579</guid>
-	<link>https://papyrusuml.wordpress.com/2017/03/24/papyrus-rt-0-9-is-available/</link>
-	<description>&lt;p&gt;As I mentioned in a &lt;a href=&quot;https://papyrusuml.wordpress.com/2017/03/09/papyrus-rt-beta/&quot; target=&quot;_blank&quot;&gt;previous post&lt;/a&gt;, Papyrus for Real Time v0.9 is now available for &lt;a href=&quot;https://eclipse.org/papyrus-rt/content/download.php&quot; target=&quot;_blank&quot;&gt;download&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;And yes, there is a Beta associated with it…but my minions tell me it is still being setup. I’ve been told something will be announced about this next week, and if you are interested in participating, you can just let me know either in comments on this blog or through &lt;a href=&quot;https://twitter.com/PapyrusUML&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; &lt;a href=&quot;https://twitter.com/PapyrusUML&quot; target=&quot;_blank&quot;&gt;@PapyrusUML&lt;/a&gt;. I’ll then let my minions know!&lt;/p&gt;
-&lt;p&gt;Are you curious about this release? Then have a look at the &lt;a href=&quot;https://wiki.eclipse.org/Papyrus-RT/Releases/Neon_v0.9_Release_Notes&quot; target=&quot;_blank&quot;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/news/&quot;&gt;News&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-rt/&quot;&gt;Papyrus-RT&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/release/&quot;&gt;release&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/579/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/579/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=579&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 24 Mar 2017 13:47:27 +0000</pubDate>
-</item>
-<item>
-	<title>Tom Schindl: e(fx)clipse runtime library – Working with the (JavaFX) UI-Thread</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5012</guid>
-	<link>https://tomsondev.bestsolution.at/2017/03/23/efxclipse-runtime-library-working-with-the-javafx-ui-thread/</link>
-	<description>&lt;p&gt;When developing UI-Application a very frequent task is&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;to synchronizes yourself back from an worker-thread to the UI-Thread&lt;/li&gt;
-&lt;li&gt;schedule task to run in the future&lt;/li&gt;
-&lt;li&gt;Block the program flow and wait for a condition being met (in SWT called spinning the event loop)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;JavaFX 8 has a public API for most of those building blocks (only exception is Event-Loop-Spinning who was an internal API in Java8 and is public API in 9) but using higher level API reduces the boilerplate code you need to implement.&lt;/p&gt;
-&lt;p&gt;Before we start let’s see how you can access to it in your maven-driven projects (I’m not gradle safey enough to show how it works there) you need to &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;add the &lt;a href=&quot;http://maven.bestsolution.at/&quot;&gt;efxclipse&lt;/a&gt; maven repository (at the time of this writing you need to nightly repository because you need at least 3.0.0)&lt;/li&gt;
-&lt;li&gt;add the following dependency
-&lt;pre class=&quot;brush: xml; title: ; notranslate&quot;&gt;&amp;lt;dependency&amp;gt;
-  &amp;lt;groupId&amp;gt;at.bestsolution.efxclipse.rt&amp;lt;/groupId&amp;gt;
-  &amp;lt;artifactId&amp;gt;org.eclipse.fx.ui.controls&amp;lt;/artifactId&amp;gt;
-  &amp;lt;version&amp;gt;3.0.0-SNAPSHOT&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let’s take a look at some of those APIs and how they can help you write better code:&lt;/p&gt;
-&lt;h2&gt;Writing back from worker thread&lt;/h2&gt;
-&lt;p&gt;Let’s suppose we have a service who returns a search result as a &lt;code&gt;CompletableFuture&lt;/code&gt; and we want to push the result – once available – to JavaFX ObjectProperty:&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;import org.eclipse.fx.core.ServiceUtils;
-
-// Lookup the domain service in the service registry
-PersonSearchService service = 
-  ServiceUtils.getService(PersonSearchService.class);
-
-ObjectProperty&amp;lt;Person&amp;gt; person = ...;
-
-CompletableFuture&amp;lt;Person&amp;gt; result = 
-  service.findByName(&quot;Tom&quot;,&quot;Schindl&quot;);
-&lt;/pre&gt;
-&lt;p&gt;Let’s for a second suppose we can interact with our UI-Toolkit on ANY-Thread we could simply write:&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;result.thenAccept( person::set );
-&lt;/pre&gt;
-&lt;p&gt;Unfortunately none of the UI-Toolkits I know would support this because they require you to sync on a special thread called the UI-Thread. JavaFX is not different in this aspect.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Plain JavaFX APIs:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;result.thenAccept( p -&amp;gt; {
-   Platform.runLater( () -&amp;gt;
-     person.set(p);
-   );
-} );
-&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Using e(fx)clipse’ &lt;code&gt;ThreadSynchronize#asyncExec(T,Consumer&amp;lt;T&amp;gt;)&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;import org.eclipse.fx.core.ThreadSynchronize;
-
-// ...
-
-// Lookup the thready service in the service registry
-ThreadSynchronize threadSync = 
-  ServiceUtils.getService(ThreadSynchronize.class).get();
-
-result.thenAccept( p -&amp;gt; {
-   threadSync.asyncExec( p, person::set );
-});
-&lt;/pre&gt;
-&lt;p&gt;We got rid of the inner lambda and replaced it with a method reference, so the code got more readable but&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Using e(fx)clipse’ &lt;code&gt;ThreadSynchronize#wrap(Consumer&amp;lt;T&amp;gt;)&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;// ...
-result.thenAccept( threadSync.wrap(person::set) );
-&lt;/pre&gt;
-&lt;p&gt;we can get rid of all outer lambda as well and are back to fairly the same code as if we’d not had to worry about thread-synchronization at all.&lt;/p&gt;
-&lt;h2&gt;Reading from a worker thread&lt;/h2&gt;
-&lt;p&gt;Let’s suppose you have a Timer running who wants to read a JavaFX-Property from a TextField in 1 second from now you’d:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You’d better rewrite it to use a Timeline so that no thread sync is needed&lt;/li&gt;
-&lt;li&gt;You’d write the following magic lines of code:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;TextField textField = ...
-
-Timer t = new Timer();
-t.schedule( new TimerTask() {
-  @Override
-  public void run() {
-    CountDownLatch ll = new CountDownLatch(1);
-    AtomicReference&amp;lt;String&amp;gt; data = new AtomicReference&amp;lt;&amp;gt;();
-    Platform.runLater( () -&amp;gt; {
-      data.set( textField.getText() );
-      ll.countDown();
-    });
-    ll.await();
-    String d = data.get();
-    // further process the data 
-  }
-}, 1000 );
-&lt;/pre&gt;
-&lt;p&gt;Let’s for a moment forget that this code fairly dangerous because it might create a dead lock situation (hence JavaFX only provides &lt;code&gt;Platform.runLater(Runnable)&lt;/code&gt;) this is a huge amount of code to write! Let’s see what APIs e(fx)clipse has to improve the situation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Using &lt;code&gt;ThreadSynchronize#syncExec(Runnable)&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;ThreadSynchronize threadSync = 
-  ServiceUtils.getService(ThreadSynchronize.class).get();
-
-public void run() {
-  AtomicReference&amp;lt;String&amp;gt; data = new AtomicReference&amp;lt;&amp;gt;();
-  threadSync.syncExec( () -&amp;gt; {
-    data.set( textField.getText() );
-  } );
-  String d = data.get();
-  // further process the data 
-}
-&lt;/pre&gt;
-&lt;p&gt;Removes the need for the &lt;code&gt;CountDownLatch&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Using &lt;code&gt;ThreadSynchronize#syncExec(Callable&amp;lt;V&amp;gt;, V)&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;public void run() {
-  String d = threadSync.syncExec( textField::getText, &quot;&quot; );
-}
-&lt;/pre&gt;
-&lt;p&gt;Removes the need for the &lt;code&gt;AtomicReference&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Using &lt;code&gt;ThreadSynchronize#scheduleExecution(long, Runnable)&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;ExecutorService s = ...;
-threadSync.scheduleExecution( 1000, () -&amp;gt; {
-   String data = textField.getText();
-   s.submit( () -&amp;gt; ... );
-} );
-&lt;/pre&gt;
-&lt;p&gt;Removes the thread synchronization problems arising from &lt;code&gt;Platform.runLater()&lt;/code&gt; call&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Using &lt;code&gt;ThreadSynchronize#scheduleExecution(long, Callable&amp;lt;T&amp;gt;) : CompletableFuture&amp;lt;T&amp;gt; &lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;threadSync.scheduleExecution( 1000, textField::getText )
-  .thenAcceptAsync( d -&amp;gt; ... );
-&lt;/pre&gt;
-&lt;p&gt;Removes the lambda and gets you to the wonderful &lt;code&gt;CompletableFuture&lt;/code&gt;-API.&lt;/p&gt;
-&lt;h2&gt;Block program flow&lt;/h2&gt;
-&lt;p&gt;Generally speaking halting the program flow is a discouraged software pattern and you’d better work with &lt;code&gt;Future&lt;/code&gt; and callbacks like &lt;code&gt;Consumer&lt;/code&gt; but there might be (existing) API you have to support who requires you to halt the program flow and continue after a certain condition has been met.&lt;/p&gt;
-&lt;p&gt;To support such a usecase e(fx)clipse has &lt;code&gt;org.eclipse.fx.ui.controls.Util#waitUntil( BlockCondition blockCondition )&lt;/code&gt; you can use like this&lt;/p&gt;
-&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;Pane p = ...;
-
-// Ask for name in an overlay
-String askForName() {
-  BlockCondition&amp;lt;String&amp;gt; condition = new BlockCondition&amp;lt;&amp;gt;();
-
-  TextField t = new TextField();
-  Button b = new Button(&quot;Proceed&quot;);
-  b.setOnAction( e -&amp;gt; { condition.release(t.getText()); } );
-  HBox box = new HBox(
-    new Label(&quot;Name:&quot;),
-    t,
-    b);
-  box.setManaged(false);
-  box.autosize();
-  box.relocate( 
-    p.getWidth() / 2 - box.getWidth() / 2, 
-    p.getHeight() / 2 - box.getHeight() / 2 );
-  p.getChildren().add( box );
-  return Util.waitUntil( condition );
-}
-&lt;/pre&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/tomsondev.wordpress.com/5012/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/tomsondev.wordpress.com/5012/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=tomsondev.bestsolution.at&amp;amp;blog=7995503&amp;amp;post=5012&amp;amp;subd=tomsondev&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 23 Mar 2017 13:08:16 +0000</pubDate>
-</item>
-<item>
-	<title>Orion: Orion 14.0 New and Noteworthy</title>
-	<guid isPermaLink="false">http://planetorion.org/news/?p=879</guid>
-	<link>http://planetorion.org/news/2017/03/orion-14-0-new-and-noteworthy/</link>
-	<description>&lt;p&gt;Another three months and &lt;a href=&quot;http://planetorion.org/news/2017/03/announcing-orion-14/&quot;&gt;another awesome release&lt;/a&gt;! Its that time again where I share all of the cool new features, enhancements and fixes with you. As usual with every release, there were lots of changes, so lets jump right in.&lt;/p&gt;
-&lt;h2&gt;Accessibility&lt;/h2&gt;
-&lt;p&gt;The work that began in 13.0 to make Orion completely accessible to every developer continued at a furious pace in 14. This time around, our work was focussed on having the correct colour contrast.&lt;/p&gt;
-&lt;p&gt;We tightened up our colours in the light theme so that all colours pass the &lt;a href=&quot;https://www.w3.org/TR/WCAG20/#guidelines&quot;&gt;WCAG 2.0 AA guideline&lt;/a&gt; for colour contrast. The changes are subtle, but they do make text easier to read, as seen in this before-and-after snapshot of selected code in the editor.&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_880&quot; style=&quot;width: 565px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/compare-selected-colors.png&quot;&gt;&lt;img alt=&quot;Selected text comparison&quot; class=&quot; wp-image-880&quot; height=&quot;317&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/compare-selected-colors.png&quot; width=&quot;555&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Comparing selected text in 14.0 vs. 13.0&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Language Tools&lt;/h2&gt;
-&lt;h3&gt;Automatic Project Configuration&lt;/h3&gt;
-&lt;p&gt;The JavaScript tooling can now read and understand complex project configurations and automatically configure Tern for the best development experience. For example, the tools can better read and understand package.json files and automatically load available plugins into Tern (rather than the user having to tailor their configuration settings).&lt;/p&gt;
-&lt;h3&gt;Projects Anywhere&lt;/h3&gt;
-&lt;p&gt;Using the new support from the platform to find project contexts, the JavaScript tools can now support a “project” at any level in the navigator. Where a project means any folder that contains JavaScript project-like files – package.json, .tern-project, etc.&lt;/p&gt;
-&lt;h3&gt;Smarter Defaults&lt;/h3&gt;
-&lt;p&gt;The default configuration for the JavaScript tools has been retooled to provide more support right out of the box. In Orion 13.0 (and before), we started the tools in a very bare-bone fashion, and would alert you about potential configuration changes (with quick fixes). Now we automatically start with ECMA, node and browser support, and configure your project as you code.&lt;/p&gt;
-&lt;h3&gt;Disable Linting In-File&lt;/h3&gt;
-&lt;p&gt;Tired of being nagged about a particular code pattern used in certain places (but like to be warned elsewhere)? You can now use the new quickfix to ignore the problem in the current file.&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_884&quot; style=&quot;width: 342px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/disable-in-file.png&quot;&gt;&lt;img alt=&quot;Disable rule in-file&quot; class=&quot; wp-image-884&quot; height=&quot;183&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/disable-in-file.png&quot; width=&quot;332&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Disable rule in-file&lt;/p&gt;&lt;/div&gt;
-&lt;h3&gt;JavaScript Type Icons&lt;/h3&gt;
-&lt;p&gt;In an effort to make the overload of information (while coding in JavaScript) a bit more understandable, we have added icons to help users immediately understand the type of something. For example, &lt;strong&gt;F&lt;/strong&gt; stands for &lt;em&gt;function&lt;/em&gt;, &lt;strong&gt;O&lt;/strong&gt; is for &lt;em&gt;objects&lt;/em&gt;, &lt;strong&gt;C&lt;/strong&gt; is for &lt;em&gt;classes&lt;/em&gt;, etc.&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_885&quot; style=&quot;width: 499px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/js-tools-icons.png&quot;&gt;&lt;img alt=&quot;Type icons&quot; class=&quot; wp-image-885&quot; height=&quot;356&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/js-tools-icons-1024x745.png&quot; width=&quot;489&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Type icons&lt;/p&gt;&lt;/div&gt;
-&lt;h3&gt;Improved ESLint configuration file support&lt;/h3&gt;
-&lt;p&gt;We have improved how the JavaScript tools handle the various forms of ESLint configuration files. We now properly support all entries of the files (&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=493824&quot;&gt;except for extends&lt;/a&gt;).&lt;/p&gt;
-&lt;h3&gt;SVG Support&lt;/h3&gt;
-&lt;p&gt;The CSS and HTML parsers have been updated to properly support &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG&quot;&gt;SVG&lt;/a&gt; attributes and properties. The HTML and CSS validation has also been updated to properly process the new attributes and properties.&lt;/p&gt;
-&lt;h2&gt;Platform Improvements&lt;/h2&gt;
-&lt;h3&gt;Syntax Styling&lt;/h3&gt;
-&lt;p&gt;Syntax styling grammars can now define a &lt;strong&gt;firstLineMatch&lt;/strong&gt; attribute.  This enables multiple grammars to be defined for a content type, and the grammar that gets applied will be chosen based on the first line of content.&lt;/p&gt;
-&lt;h3&gt;Tasks&lt;/h3&gt;
-&lt;p&gt;The node server now stores its tasks metadata in a Mongo DB when running as multi-tenant.  As a result, requests querying long-running tasks can now be handled by different server instances that have access to the shared Mongo DB.&lt;/p&gt;
-&lt;h3&gt;Automatic Syntax Checking&lt;/h3&gt;
-&lt;p&gt;Previously, syntax checking took place when a file is saved – if you have autosave turned on in Orion, this is not a problem, as problem markers would be updated as you made changes. If however, you had autosave turned off, any problem markers would quickly become stale causing confusion. Now, in Orion 14, syntax checking will take place on a regular interval even if autosave is turned off, to try and avoid stale problem markers piling up.&lt;/p&gt;
-&lt;h3&gt;New File Client API&lt;/h3&gt;
-&lt;p&gt;The Orion file client has been updated with the ability to find a project given a particular resource path. The new API can be invoked as:&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;fileClient.getProject(resourcePath, options)&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Information Annotations&lt;/h3&gt;
-&lt;p&gt;A new type of annotation has been added to Orion – the &lt;strong&gt;info&lt;/strong&gt; annotation.&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_881&quot; style=&quot;width: 494px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/Screen-Shot-2017-03-20-at-2.50.40-PM.png&quot;&gt;&lt;img alt=&quot;The info annotation&quot; class=&quot; wp-image-881&quot; height=&quot;88&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/Screen-Shot-2017-03-20-at-2.50.40-PM.png&quot; width=&quot;484&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The “info” annotation&lt;/p&gt;&lt;/div&gt;
-&lt;h3&gt;Annotation Visibility&lt;/h3&gt;
-&lt;p&gt;Always wanted to only show annotations in certain parts of the IDE? Well, now you can.&lt;/p&gt;
-&lt;p&gt;Simply navigate to the editor settings preference page, and look for the &lt;strong&gt;Annotations&lt;/strong&gt;, &lt;strong&gt;Overview Annotations&lt;/strong&gt; and &lt;strong&gt;Text Annotations&lt;/strong&gt; sections to configure annotation visibility as you’d like.&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_882&quot; style=&quot;width: 506px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/Screen-Shot-2017-03-20-at-2.57.43-PM.png&quot;&gt;&lt;img alt=&quot;Annotation visibilities&quot; class=&quot; wp-image-882&quot; height=&quot;373&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/Screen-Shot-2017-03-20-at-2.57.43-PM-1024x770.png&quot; width=&quot;496&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Annotation visibilities&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Don’t forget, you can also use the handy star buttons to have the preference(s) show up in the quick preference menu.&lt;/p&gt;
-&lt;h3&gt;IDE Themes&lt;/h3&gt;
-&lt;p&gt;Finally, after all this time, we have the ability to change the theme of not just the editor, but the entire IDE from the preferences!&lt;/p&gt;
-&lt;p&gt;Not happy with the default theme in Orion? Head over to the &lt;strong&gt;IDE Theme&lt;/strong&gt; preferences page to change to another theme (currently there are only two of them) or create your own (by modifying an existing theme and saving it as your own).&lt;/p&gt;
-&lt;div class=&quot;wp-caption alignnone&quot; id=&quot;attachment_883&quot; style=&quot;width: 499px;&quot;&gt;&lt;a href=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/theme-settings.png&quot;&gt;&lt;img alt=&quot;IDE Theme preferences&quot; class=&quot; wp-image-883&quot; height=&quot;361&quot; src=&quot;http://planetorion.org/news/wp-content/uploads/2017/03/theme-settings-1024x756.png&quot; width=&quot;489&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;IDE Theme preferences&lt;/p&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 21 Mar 2017 19:46:58 +0000</pubDate>
-</item>
-<item>
-	<title>Roxanne Joncas: Open IoT Challenge 3.0 — Winners</title>
-	<guid isPermaLink="false">https://medium.com/p/88fe75db263c</guid>
-	<link>https://medium.com/@roxanne.iot/open-iot-challenge-3-0-winners-88fe75db263c?source=rss-82f8afd3e513------2</link>
-	<description>&lt;p&gt;In case you missed the Eclipse IoT announcement last week, the &lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;Open IoT Challenge 3.0 winners&lt;/a&gt; were announced!&lt;/p&gt;&lt;h3&gt;And the winners are…&lt;/h3&gt;&lt;figure&gt;&lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/750/1*GrTXE-OQ_fL4HYDOEjhD-w.png&quot; /&gt;&lt;/a&gt;Open IoT Challenge 3.0 Winners&lt;/figure&gt;&lt;p&gt;Congratulations to the &lt;a href=&quot;https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc&quot;&gt;InMoodForLife&lt;/a&gt; team for coming in first. Their solution analyzes and monitors the sleep patterns of individuals affected by bipolar disorder. The goal of the solution is to improve the therapeutic approach, react, and adapt the treatment faster. The team already shared part of their future plans with us and it sounds very promising! We hope they will go on to help many individuals suffering from bipolar disorder.&lt;/p&gt;&lt;p&gt;The krishi IoT and RHDS teams also worked very hard and delivered great solutions. &lt;a href=&quot;https://www.eclipse.org/org/press-release/openiotchallenge3_winners.php&quot;&gt;Read the full announcement&lt;/a&gt; to find out more.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/720/1*V7gJkIKmcuE7zepATG943A.png&quot; /&gt;Open IoT Challenge 3.0 Sponsors&lt;/figure&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=88fe75db263c&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 20 Mar 2017 10:07:55 +0000</pubDate>
 </item>
 
 </channel>
