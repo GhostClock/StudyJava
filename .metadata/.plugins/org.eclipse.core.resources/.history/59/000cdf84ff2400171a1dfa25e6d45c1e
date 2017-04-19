@@ -1,0 +1,39 @@
+/**
+ * 售票系统
+ * 
+ * */
+
+package com.test04;
+
+public class Demo02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+//售票窗口
+class TicketWindow implements Runnable{
+	//一共有2000张票
+	private int numbers = 2000;
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		while (true) {
+			//先判断是否还有票
+			if (numbers > 0) {
+				//显示售票信息
+				System.out.println("只在售出第 " + numbers + "张票");
+				numbers --;
+			}
+		}
+	}
+	
+	
+	
+	
+	
+}

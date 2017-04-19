@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Thread/src/com.test05&apos;&#x0A;- Original project: &apos;Thread&apos;&#x0A;- Destination element: &apos;Thread/src/com.test05&apos;&#x0A;- Original elements:&#x0A;     com.test03.MyTankGame.java&#x0A;     com.test03.Members.java" description="Copy compilation units" destination="/src&lt;com.test05" element1="/src&lt;com.test03{MyTankGame.java" element2="/src&lt;com.test03{Members.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1492611887374" units="2" version="1.0"/>
+</session>
