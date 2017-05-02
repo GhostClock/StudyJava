@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
-<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
-<fullyQualifiedTypeName name="javax.swing.JLabel"/>
-<fullyQualifiedTypeName name="javax.swing.JTabbedPane"/>
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
 <fullyQualifiedTypeName name="com.GUI.QQLogin"/>
 <fullyQualifiedTypeName name="javax.swing.JToolBar"/>
@@ -47,17 +43,21 @@
 <fullyQualifiedTypeName name="java.awt.event.WindowListener"/>
 <fullyQualifiedTypeName name="java.awt.event.KeyListener"/>
 <fullyQualifiedTypeName name="com.test05.Tank"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
-<fullyQualifiedTypeName name="com.test05.EnemyTank"/>
 <fullyQualifiedTypeName name="com.test01.Cat"/>
 <fullyQualifiedTypeName name="com.test01.Dog"/>
 <fullyQualifiedTypeName name="java.security.Timestamp"/>
 <fullyQualifiedTypeName name="com.test02.Pig"/>
 <fullyQualifiedTypeName name="com.test02.Bird"/>
-<fullyQualifiedTypeName name="java.lang.Short"/>
 <fullyQualifiedTypeName name="com.test03.Shot"/>
 <fullyQualifiedTypeName name="java.awt.RenderingHints.Key"/>
 <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="com.test04.Cat"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.test04.TicketWindow"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.test04.Dog"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.lang.Short"/>
+<fullyQualifiedTypeName name="com.test05.Shot"/>
+<fullyQualifiedTypeName name="com.test05.EnemyTank"/>
 </qualifiedTypeNameHistroy>
