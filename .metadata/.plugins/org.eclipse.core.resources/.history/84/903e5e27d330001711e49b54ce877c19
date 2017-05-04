@@ -1,0 +1,15 @@
+/*
+ * 功能 File 类的基本用法
+ * 
+ * **/
+
+package com.test01;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+/*
+ * 功能：File 类的基本用法
+ * 
+ * **/
+
+package com.test01;
+
+import java.io.*;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//创建一个文件对象// /Users/ghostclock/Documents/Eclipse/Java/IO/src/com/test01
+		File file = new File("aa.txt");
+		//得到文件路径
+		System.out.println("文件路径:" + file.getAbsolutePath());
+		//得到文件的大小 字节大小
+		System.out.println("文件大小:" + file.length());
+		
+	}
+
+}
