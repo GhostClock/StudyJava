@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="y" key="selection"/>
+		<item value="没有子弹" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="没有子弹"/>
+			<item value="判断是否"/>
+			<item value="&lt; 1"/>
 			<item value="public void moveDown() {"/>
 			<item value="hero.getY()"/>
 			<item value="hero.getX()"/>

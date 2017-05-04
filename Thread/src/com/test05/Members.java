@@ -95,6 +95,8 @@ class Tank {
 	// 定义坦克的颜色
 	int color;
 
+	boolean isLive = true;
+	
 	public int getColor() {
 		return color;
 	}
@@ -143,10 +145,9 @@ class Tank {
 
 // 敌人的坦克,把敌人的坦克做成线程类
 class EnemyTank extends Tank implements Runnable {
-	boolean isLive = true;
 	int times = 0;
 	// 定义一个向量，可以存放敌人的子弹
-	Vector<Shot> shorts = new Vector<Shot>();
+	Vector<Shot> shots = new Vector<Shot>();
 	// 敌人添加子弹，应当在刚刚创建坦克和敌人的坦克子弹死亡后
 
 	public EnemyTank(int x, int y) {
@@ -224,8 +225,8 @@ class EnemyTank extends Tank implements Runnable {
 			if (times % 2 == 0) {
 				if (isLive) {
 					// 判断是否需要给坦克加入新的子弹
-					if (shorts.size() < 5) {
-						System.out.println("enemyTank.shorts.size() = " + shorts.size());
+					if (shots.size() < 5) {
+						System.out.println("enemyTank.shorts.size() = " + shots.size());
 
 						Shot shot = null;
 						// 没有子弹
@@ -235,19 +236,19 @@ class EnemyTank extends Tank implements Runnable {
 							// 创建一颗子弹
 							shot = new Shot(x + 10, y, 0);
 							// 把子弹加入到Vector
-							shorts.add(shot);
+							shots.add(shot);
 							break;
 						case 1:
 							shot = new Shot(x + 30, y + 10, 1);
-							shorts.add(shot);
+							shots.add(shot);
 							break;
 						case 2:
 							shot = new Shot(x + 10, y + 30, 2);
-							shorts.add(shot);
+							shots.add(shot);
 							break;
 						case 3:
 							shot = new Shot(x, y + 10, 3);
-							shorts.add(shot);
+							shots.add(shot);
 							break;
 						default:
 							break;

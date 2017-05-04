@@ -7,6 +7,7 @@
  * 5.让敌人的坦克也能随机移动起来
  * 6.控制我放的坦克的敌人的坦克的移动范围
  * 7.让敌人的坦克也能发射子弹
+ * 8.当敌人的坦克击中我的坦克时，也能爆炸
  * */
 package com.test05;
 
@@ -83,7 +84,7 @@ class MyPanel2 extends JPanel implements KeyListener, Runnable {
 			// 给敌人坦克添加一颗子弹
 			Shot shot = new Shot(enemyTank.x + 10, enemyTank.y + 30, 2);
 			// 加入给敌人坦克
-			enemyTank.shorts.add(shot);
+			enemyTank.shots.add(shot);
 			Thread thread2 = new Thread(shot);
 			thread2.start();
 
@@ -100,12 +101,13 @@ class MyPanel2 extends JPanel implements KeyListener, Runnable {
 	// 抽象paint
 	@Override
 	public void paint(Graphics g) {
-		super.paint(g);
+		super.paint(g); 
 		g.fillRect(0, 0, 400, 300);
 
 		// 画出自己的坦克
-		this.drawTanke(hero.getX(), hero.getY(), g, this.hero.direct, 1);
-
+		if (hero.isLive) {
+			this.drawTanke(hero.getX(), hero.getY(), g, this.hero.direct, 1);
+		}
 		// 从shorts中取出每一刻子弹并画出
 		for (int i = 0; i < hero.shots.size(); i++) {
 			Shot myShot = hero.shots.get(i);
@@ -150,53 +152,88 @@ class MyPanel2 extends JPanel implements KeyListener, Runnable {
 				this.drawTanke(enemyTank.getX(), enemyTank.getY(), g, enemyTank.getDirect(), 0);
 
 				// 再画出敌人的子弹
-				for (int j = 0; j < enemyTank.shorts.size(); j++) {
+				for (int j = 0; j < enemyTank.shots.size(); j++) {
 					// 取出子弹
-					Shot enemyShot = enemyTank.shorts.get(j);
+					Shot enemyShot = enemyTank.shots.get(j);
 					if (enemyShot.isLive) {
 						g.draw3DRect(enemyShot.x, enemyShot.y, 1, 1, false);
 					}else {
 						//如果敌人的子弹死亡了，就从VVector中去掉
-						enemyTank.shorts.remove(enemyShot);
+						enemyTank.shots.remove(enemyShot);
 					}
 				}
 			}
 		}
 	}
 
-	// 写一个函数判断子弹是否击中目标
-	public void hitTank(Shot shot, EnemyTank enemyTank) {
+	// 判断我的子弹是否击中敌人的坦克
+	public void hitEnemyTank() {
+		// 判断是否击中敌人的坦克
+		for (int i = 0; i < hero.shots.size(); i++) {
+			// 取出子弹
+			Shot myShot = hero.shots.get(i);
+			// 判断子弹是否有效
+			if (myShot.isLive) {
+				// 取出每个坦克与它判断
+				for (int j = 0; j < enemyTanks.size(); j++) {
+					// 取出坦克
+					EnemyTank enemyTank = enemyTanks.get(j);
+					if (enemyTank.isLive) {
+						this.hitTank(myShot, enemyTank);
+					}
+				}
+			}
+		}
+	}
+	//判断我的子弹是否击中敌人的坦克
+	public void hitMe() {
+		//取出每一个敌人的坦克
+		for (int i = 0; i < this.enemyTanks.size(); i++) {
+			//取出敌人的坦克
+			EnemyTank enemyTank = enemyTanks.get(i);
+			//取出每一颗子弹
+			for (int j = 0; j < enemyTank.shots.size(); j++) {
+				//取出子弹
+				Shot enemyShot = enemyTank.shots.get(j);
+				this.hitTank(enemyShot, hero);
+			}
+		}
+	}
+	
+	
+	// 写一个函数判断子弹是否击中敌人的坦克
+	public void hitTank(Shot shot, Tank tank) {
 		// 判断坦克的方向
-		switch (enemyTank.direct) {
+		switch (tank.direct) {
 		// 敌人的坦克方向是上或者下的时候
 		case 0:
 		case 2:
-			if (shot.x > enemyTank.x && shot.x < enemyTank.x + 20 && shot.y > enemyTank.y
-					&& shot.y < enemyTank.y + 30) {
+			if (shot.x > tank.x && shot.x < tank.x + 20 && shot.y > tank.y
+					&& shot.y < tank.y + 30) {
 				// 击中
 				// 子弹死亡
 				shot.isLive = false;
 				// 敌人死亡
-				enemyTank.isLive = false;
+				tank.isLive = false;
 
 				// 创建一颗炸弹，放入Vector
-				Bomb bomb = new Bomb(enemyTank.x, enemyTank.y);
+				Bomb bomb = new Bomb(tank.x, tank.y);
 				bombs.add(bomb);
 			}
 			break;
 		// 敌人的坦克向左或者向右
 		case 1:
 		case 3:
-			if (shot.x > enemyTank.x && shot.x < enemyTank.x + 30 && shot.y > enemyTank.y
-					&& shot.y < enemyTank.y + 20) {
+			if (shot.x > tank.x && shot.x < tank.x + 30 && shot.y > tank.y
+					&& shot.y < tank.y + 20) {
 				// 击中
 				// 子弹死亡
 				shot.isLive = false;
 				// 敌人死亡
-				enemyTank.isLive = false;
+				tank.isLive = false;
 
 				// 创建一颗炸弹，放入Vector
-				Bomb bomb = new Bomb(enemyTank.x, enemyTank.y);
+				Bomb bomb = new Bomb(tank.x, tank.y);
 				bombs.add(bomb);
 			}
 			break;
@@ -331,23 +368,12 @@ class MyPanel2 extends JPanel implements KeyListener, Runnable {
 			} catch (Exception e) {
 				// TODO: handle exception
 			}
-			// 判断是否击中
-			for (int i = 0; i < hero.shots.size(); i++) {
-				// 取出子弹
-				Shot myShot = hero.shots.get(i);
-				// 判断子弹是否有效
-				if (myShot.isLive) {
-					// 取出每个坦克与它判断
-					for (int j = 0; j < enemyTanks.size(); j++) {
-						// 取出坦克
-						EnemyTank enemyTank = enemyTanks.get(j);
-						if (enemyTank.isLive) {
-							this.hitTank(myShot, enemyTank);
-						}
-					}
-				}
-
-			}
+			
+			//判断我的子弹是否击中敌人的坦克
+			this.hitEnemyTank();
+			//判断敌人的子弹是否击中我的坦克
+			this.hitMe();
+			
 			// 重绘
 			this.repaint();
 		}
